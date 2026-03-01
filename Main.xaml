@@ -119,7 +119,7 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1922,14752.666666666666" sap2010:WorkflowViewState.IdRef="Sequence_3">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1922,15026" sap2010:WorkflowViewState.IdRef="Sequence_3">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="Puesto" />
       <Variable x:TypeArguments="x:String" Name="Mesa" />
@@ -144,22 +144,18 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Secuencia" sap:VirtualizedContainerService.HintSize="800.6666666666666,14730" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Secuencia" sap:VirtualizedContainerService.HintSize="800.6666666666666,15003.333333333334" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
-        <Variable x:TypeArguments="x:Boolean" Name="Ciclo_Infinito">
-          <Variable.Default>
-            <Literal x:TypeArguments="x:Boolean" Value="True" />
-          </Variable.Default>
-        </Variable>
+        <Variable x:TypeArguments="x:Boolean" Default="True" Name="Ciclo_Infinito" />
       </Sequence.Variables>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="766.6666666666666,14647.333333333334" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_2">
+      <ui:InterruptibleWhile CurrentIndex="{x:Null}" Condition="[Ciclo_Infinito =True]" DisplayName="While" sap:VirtualizedContainerService.HintSize="766.6666666666666,14920.666666666666" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_2">
         <ui:InterruptibleWhile.Body>
-          <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="764.6666666666666,14524.666666666666" sap2010:WorkflowViewState.IdRef="Sequence_14">
+          <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="764.6666666666666,14798" sap2010:WorkflowViewState.IdRef="Sequence_14">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -208,7 +204,7 @@
                 <ugsm:RangeMetadataSlim ColumnStart="1" RangeType="Range" />
               </uga:ReadRangeConnections.RangeMetadata>
             </uga:ReadRangeConnections>
-            <ui:MultipleAssign DisplayName="Asignación múltiple" sap:VirtualizedContainerService.HintSize="730.6666666666666,425.3333333333333" sap2010:WorkflowViewState.IdRef="MultipleAssign_3">
+            <ui:MultipleAssign DisplayName="Asignación múltiple" sap:VirtualizedContainerService.HintSize="730.6666666666666,429.3333333333333" sap2010:WorkflowViewState.IdRef="MultipleAssign_3">
               <ui:MultipleAssign.AssignOperations>
                 <scg:List x:TypeArguments="ui:AssignOperation" Capacity="16">
                   <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_14">
@@ -312,8 +308,8 @@
                 </scg:List>
               </ui:MultipleAssign.AssignOperations>
             </ui:MultipleAssign>
-            <ui:BuildDataTable DataTable="[Tabla_Exportacion]" DisplayName="Crear tabla de datos" sap:VirtualizedContainerService.HintSize="730.6666666666666,92" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xD;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xD;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xD;&#xA;      &lt;xs:complexType&gt;&#xD;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xD;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xD;&#xA;            &lt;xs:complexType&gt;&#xD;&#xA;              &lt;xs:sequence&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Cedula&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xD;&#xA;                  &lt;xs:simpleType&gt;&#xD;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xD;&#xA;                      &lt;xs:maxLength value=&quot;100000&quot; /&gt;&#xD;&#xA;                    &lt;/xs:restriction&gt;&#xD;&#xA;                  &lt;/xs:simpleType&gt;&#xD;&#xA;                &lt;/xs:element&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Puesto&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xD;&#xA;                  &lt;xs:simpleType&gt;&#xD;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xD;&#xA;                      &lt;xs:maxLength value=&quot;10000000&quot; /&gt;&#xD;&#xA;                    &lt;/xs:restriction&gt;&#xD;&#xA;                  &lt;/xs:simpleType&gt;&#xD;&#xA;                &lt;/xs:element&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Mesa&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xD;&#xA;                  &lt;xs:simpleType&gt;&#xD;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xD;&#xA;                      &lt;xs:maxLength value=&quot;1000000&quot; /&gt;&#xD;&#xA;                    &lt;/xs:restriction&gt;&#xD;&#xA;                  &lt;/xs:simpleType&gt;&#xD;&#xA;                &lt;/xs:element&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Zona&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xD;&#xA;                  &lt;xs:simpleType&gt;&#xD;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xD;&#xA;                      &lt;xs:maxLength value=&quot;1000000&quot; /&gt;&#xD;&#xA;                    &lt;/xs:restriction&gt;&#xD;&#xA;                  &lt;/xs:simpleType&gt;&#xD;&#xA;                &lt;/xs:element&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Departamento&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xD;&#xA;                  &lt;xs:simpleType&gt;&#xD;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xD;&#xA;                      &lt;xs:maxLength value=&quot;10000000&quot; /&gt;&#xD;&#xA;                    &lt;/xs:restriction&gt;&#xD;&#xA;                  &lt;/xs:simpleType&gt;&#xD;&#xA;                &lt;/xs:element&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Municipio&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xD;&#xA;                  &lt;xs:simpleType&gt;&#xD;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xD;&#xA;                      &lt;xs:maxLength value=&quot;1000000&quot; /&gt;&#xD;&#xA;                    &lt;/xs:restriction&gt;&#xD;&#xA;                  &lt;/xs:simpleType&gt;&#xD;&#xA;                &lt;/xs:element&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Localidad&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xD;&#xA;                  &lt;xs:simpleType&gt;&#xD;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xD;&#xA;                      &lt;xs:maxLength value=&quot;1000000&quot; /&gt;&#xD;&#xA;                    &lt;/xs:restriction&gt;&#xD;&#xA;                  &lt;/xs:simpleType&gt;&#xD;&#xA;                &lt;/xs:element&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Codigo_Localidad&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xD;&#xA;                  &lt;xs:simpleType&gt;&#xD;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xD;&#xA;                      &lt;xs:maxLength value=&quot;1000000&quot; /&gt;&#xD;&#xA;                    &lt;/xs:restriction&gt;&#xD;&#xA;                  &lt;/xs:simpleType&gt;&#xD;&#xA;                &lt;/xs:element&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Direccion&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xD;&#xA;                  &lt;xs:simpleType&gt;&#xD;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xD;&#xA;                      &lt;xs:maxLength value=&quot;10000000&quot; /&gt;&#xD;&#xA;                    &lt;/xs:restriction&gt;&#xD;&#xA;                  &lt;/xs:simpleType&gt;&#xD;&#xA;                &lt;/xs:element&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Link&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xD;&#xA;                  &lt;xs:simpleType&gt;&#xD;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xD;&#xA;                      &lt;xs:maxLength value=&quot;100000000&quot; /&gt;&#xD;&#xA;                    &lt;/xs:restriction&gt;&#xD;&#xA;                  &lt;/xs:simpleType&gt;&#xD;&#xA;                &lt;/xs:element&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Fecha_Hora&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xD;&#xA;                  &lt;xs:simpleType&gt;&#xD;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xD;&#xA;                      &lt;xs:maxLength value=&quot;1000000&quot; /&gt;&#xD;&#xA;                    &lt;/xs:restriction&gt;&#xD;&#xA;                  &lt;/xs:simpleType&gt;&#xD;&#xA;                &lt;/xs:element&gt;&#xD;&#xA;              &lt;/xs:sequence&gt;&#xD;&#xA;            &lt;/xs:complexType&gt;&#xD;&#xA;          &lt;/xs:element&gt;&#xD;&#xA;        &lt;/xs:choice&gt;&#xD;&#xA;      &lt;/xs:complexType&gt;&#xD;&#xA;    &lt;/xs:element&gt;&#xD;&#xA;  &lt;/xs:schema&gt;&#xD;&#xA;&lt;/NewDataSet&gt;" />
-            <ui:FilterDataTable DataTable="[Tabla_Datos]" DisplayName="Filtrar tabla de datos" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="730.6666666666666,196" sap2010:WorkflowViewState.IdRef="FilterDataTable_1" OutputDataTable="[TablaFiltrada]" SelectColumnsMode="Remove">
+            <ui:BuildDataTable DataTable="[Tabla_Exportacion]" DisplayName="Crear tabla de datos" sap:VirtualizedContainerService.HintSize="730.6666666666666,96" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;Cedula&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100000&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;Puesto&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;10000000&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;Mesa&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;1000000&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;Zona&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;1000000&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;Departamento&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;10000000&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;Municipio&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;1000000&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;Localidad&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;1000000&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;Codigo_Localidad&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;1000000&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;Direccion&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;10000000&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;Link&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100000000&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;Fecha_Hora&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;1000000&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;" />
+            <ui:FilterDataTable DataTable="[Tabla_Datos]" DisplayName="Filtrar tabla de datos" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="730.6666666666666,200" sap2010:WorkflowViewState.IdRef="FilterDataTable_1" OutputDataTable="[TablaFiltrada]" SelectColumnsMode="Remove">
               <ui:FilterDataTable.Filters>
                 <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
                   <ui:FilterOperationArgument Operand="{x:Null}" BooleanOperator="And" Operator="EMPTY">
@@ -329,7 +325,7 @@
                 </scg:List>
               </ui:FilterDataTable.SelectColumns>
             </ui:FilterDataTable>
-            <ui:MultipleAssign DisplayName="Asignación múltiple" sap:VirtualizedContainerService.HintSize="730.6666666666666,180" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+            <ui:MultipleAssign DisplayName="Asignación múltiple" sap:VirtualizedContainerService.HintSize="730.6666666666666,184" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
               <ui:MultipleAssign.AssignOperations>
                 <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
                   <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
@@ -351,28 +347,28 @@
                 </scg:List>
               </ui:MultipleAssign.AssignOperations>
             </ui:MultipleAssign>
-            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Elecciones Colombia" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="730.6666666666666,13268.666666666666" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="491986b4-9132-423d-a009-74060b91ccd1" Version="V2">
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Elecciones Colombia" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="730.6666666666666,13522" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="491986b4-9132-423d-a009-74060b91ccd1" Version="V2">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="728.6666666666666,13070" sap2010:WorkflowViewState.IdRef="Sequence_1">
+                  <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="728.6666666666666,13323.333333333334" sap2010:WorkflowViewState.IdRef="Sequence_1">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="694.6666666666666,13006" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1">
+                    <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[Ciclo_Ingreso = True]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="694.6666666666666,13259.333333333334" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1">
                       <ui:InterruptibleDoWhile.Body>
-                        <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="692.6666666666666,12883.333333333334" sap2010:WorkflowViewState.IdRef="Sequence_44">
+                        <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="692.6666666666666,13132.666666666666" sap2010:WorkflowViewState.IdRef="Sequence_44">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
                           <Delay DisplayName="Retraso" Duration="00:00:05" sap:VirtualizedContainerService.HintSize="658.6666666666666,128" sap2010:WorkflowViewState.IdRef="Delay_2" />
-                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Escribir en 'Ingresa tu cédula de ci…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="658.6666666666666,248" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" Text="[Cedula]" Version="V5">
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Escribir en 'Ingresa tu cédula de ci…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="658.6666666666666,252" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" Text="[Cedula]" Version="V5">
                             <uix:NTypeInto.Target>
                               <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/identificacion" ContentHash="wtU0Eb-OpEaQ3iV3IQQX_w" DesignTimeRectangle="1668, 899, 503, 75" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='document' tag='INPUT' type='number' class='border border-[#D1D5DB] w-full h-[50px] rounded-lg bg-white px-4 outline-none' placeholder='Ej: 12345678' aaname='Ingresa tu cédula de ciudadanía' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="8ba68630-5bec-4c5e-8737-5d81a9f5cde6" InformativeScreenshot="2b4e8af1734214af05c3ca3320216ee4.jpg" IsResponsive="True" Reference="Bfm9rTQjp0yuZZWkJHr_zw/dP0HVlwL9UiPMfZgs_Nowg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
                                 <uix:TargetAnchorable.Anchors>
@@ -393,17 +389,17 @@
                               </uix:VerifyExecutionTypeIntoOptions>
                             </uix:NTypeInto.VerifyOptions>
                           </uix:NTypeInto>
-                          <uix:NCheckState DisplayName="Comprobar estado de aplicación 'Cualquier inquietud o r…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="658.6666666666666,12447.333333333334" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" Timeout="30" Version="V5">
+                          <uix:NCheckState DisplayName="Comprobar estado de aplicación 'Cualquier inquietud o r…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="658.6666666666666,12688.666666666666" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" Timeout="30" Version="V5">
                             <uix:NCheckState.IfExists>
-                              <Sequence DisplayName="Aparece el destino" sap:VirtualizedContainerService.HintSize="656.6666666666666,11306.666666666666" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                              <Sequence DisplayName="Aparece el destino" sap:VirtualizedContainerService.HintSize="656.6666666666666,11548" sap2010:WorkflowViewState.IdRef="Sequence_5">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <TryCatch DisplayName="Intentar capturar" sap:VirtualizedContainerService.HintSize="622.6666666666666,691.3333333333334" sap2010:WorkflowViewState.IdRef="TryCatch_10">
+                                <TryCatch DisplayName="Intentar capturar" sap:VirtualizedContainerService.HintSize="622.6666666666666,932.6666666666666" sap2010:WorkflowViewState.IdRef="TryCatch_10">
                                   <TryCatch.Try>
-                                    <Sequence DisplayName="Intentar" sap:VirtualizedContainerService.HintSize="450,250" sap2010:WorkflowViewState.IdRef="Sequence_45">
+                                    <Sequence DisplayName="Intentar" sap:VirtualizedContainerService.HintSize="450,254" sap2010:WorkflowViewState.IdRef="Sequence_45">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -428,7 +424,7 @@
                                         <ActivityAction.Argument>
                                           <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                                         </ActivityAction.Argument>
-                                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,178.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_46">
+                                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,182.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_46">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -440,12 +436,13 @@
                                     </Catch>
                                   </TryCatch.Catches>
                                   <TryCatch.Finally>
-                                    <Sequence DisplayName="Finalmente" sap:VirtualizedContainerService.HintSize="450,90.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_47">
+                                    <Sequence DisplayName="Finalmente" sap:VirtualizedContainerService.HintSize="450,320" sap2010:WorkflowViewState.IdRef="Sequence_47">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
+                                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Atajos del teclado" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,256" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" InteractionMode="HardwareEvents" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" Shortcuts="[d(hk)][k(PgDn)][u(hk)]" Version="V5" />
                                     </Sequence>
                                   </TryCatch.Finally>
                                 </TryCatch>
@@ -891,7 +888,7 @@
                                               <uix:NGetText.Target>
                                                 <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="62ee4c5d-ab94-47b3-8102-d338d070618b" ContentHash="1P8e9flk-kywELmPI09wUA" CvType="AnyWordGroup" DesignTimeRectangle="1148, 1170, 138, 24" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="3ffe81db-11ba-49aa-aab3-4d76942f544a" InformativeScreenshot="b1d8d4d835002028b77b37fd835b71fe.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/T0yNIKWlhk2H_EPXIvkODQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
                                                   <uix:TargetAnchorable.Anchors>
-                                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                       <uix:Target CVScreenId="62ee4c5d-ab94-47b3-8102-d338d070618b" CvTextArea="1128, 1043, 268, 34" CvTextArgument="Lugar de votación" CvType="Text" DesignTimeRectangle="1129, 1037, 267, 41" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Lugar de votación' tag='SPAN' type='' class='md:text-[20px] font-bold' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Lugar de votación' /&gt;" Guid="061db749-56fe-4fbe-9874-c40fcfe8636c" SearchSteps="FuzzySelector, CV" />
                                                     </scg:List>
                                                   </uix:TargetAnchorable.Anchors>
@@ -1245,7 +1242,7 @@
                                                     <uix:NCheckState.Target>
                                                       <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/identificacion" CVScreenId="b6050849-f01d-4a28-b44f-cd335df9bb8c" ContentHash="eiUIdsMi0EuavmuF3OmKmA" DesignTimeRectangle="1593, 1060, 654, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;p' isleaf='1' tag='P' /&gt;" Guid="c58b8c9b-dbad-4637-98eb-f6744072fa22" InformativeScreenshot="5b92c97cbbdb516f4b7c0db8b902ff8d.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/5WT1CBuBRky_H6qzRpB4Pg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
                                                         <uix:TargetAnchorable.Anchors>
-                                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                             <uix:Target CVScreenId="b6050849-f01d-4a28-b44f-cd335df9bb8c" DesignTimeRectangle="1818, 1138, 203, 78" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Consultar' type='' tag='BUTTON' class='bg-general-button font-montserrat font-bold px-6 py-3 rounded-lg font-medium text-lg disabled:opacity-60 disabled:cursor-not-allowed text-primary' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Consultar' /&gt;" Guid="cbaeb638-67aa-4dae-b43a-5659a4556907" SearchSteps="FuzzySelector" />
                                                           </scg:List>
                                                         </uix:TargetAnchorable.Anchors>
@@ -1260,7 +1257,7 @@
                                         <uix:NCheckState.Target>
                                           <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="62ee4c5d-ab94-47b3-8102-d338d070618b" ContentHash="UGD4iOnrCEOl6xUw4JaUXA" CvTextArea="1187, 1208, 266, 30" CvTextArgument="Cancelada por Muerte" CvType="Text" DesignTimeRectangle="1187, 1208, 266, 31" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="8e5518b3-6dca-48e1-a785-e50fd87fe87e" InformativeScreenshot="fc0ce3a19aa35ab8d076abc825a3bb33.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/YMN7UDvYZ0KI_gEKYZf2uw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
                                             <uix:TargetAnchorable.Anchors>
-                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                 <uix:Target CVScreenId="62ee4c5d-ab94-47b3-8102-d338d070618b" CvTextArea="1059, 1208, 123, 24" CvTextArgument="Novedad:" CvType="Text" DesignTimeRectangle="1062, 1204, 127, 34" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='STRONG' class='' aaname='Novedad: ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Novedad:' /&gt;" Guid="e2a074d7-c179-46f3-afa8-9f678a7d6cc1" SearchSteps="FuzzySelector, CV" />
                                               </scg:List>
                                             </uix:TargetAnchorable.Anchors>
@@ -1272,7 +1269,7 @@
                                   <uix:NCheckState.Target>
                                     <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="1b2a86d6-a291-4948-83da-312c3da65c97" ContentHash="YM0OAWbc-0iOjDFnrceQbw" CvTextArea="1779, 905, 279, 22" CvTextArgument="Documento de identidad" CvType="Text" DesignTimeRectangle="1780, 899, 279, 36" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='font-normal' tag='H2' /&gt;" Guid="ed6df0a1-5b45-4804-ba91-dd5ff2f24f07" InformativeScreenshot="81d277f73ce9ce489dc331aabb86dec0.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/EAD_S4um7Eu4xPRreF0pCQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                                       <uix:TargetAnchorable.Anchors>
-                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                           <uix:Target CVScreenId="1b2a86d6-a291-4948-83da-312c3da65c97" DesignTimeRectangle="1790, 947, 259, 58" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='C.C. 52440635' tag='SPAN' type='' class='font-semibold text-[26px]' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='C.C. 52440635' /&gt;" Guid="7d341023-f1be-4e03-be23-008d7a0efa81" SearchSteps="FuzzySelector" />
                                         </scg:List>
                                       </uix:TargetAnchorable.Anchors>
@@ -1345,9 +1342,6 @@
                           </uix:NCheckState>
                         </Sequence>
                       </ui:InterruptibleDoWhile.Body>
-                      <ui:InterruptibleDoWhile.Condition>
-                        <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="Ciclo_Ingreso = True" />
-                      </ui:InterruptibleDoWhile.Condition>
                     </ui:InterruptibleDoWhile>
                   </Sequence>
                 </ActivityAction>
@@ -1378,9 +1372,6 @@
             </uix:NApplicationCard>
           </Sequence>
         </ui:InterruptibleWhile.Body>
-        <ui:InterruptibleWhile.Condition>
-          <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="Ciclo_Infinito =True" />
-        </ui:InterruptibleWhile.Condition>
       </ui:InterruptibleWhile>
     </Sequence>
   </Sequence>
