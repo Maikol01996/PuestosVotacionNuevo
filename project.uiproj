@@ -1,0 +1,6 @@
+{
+  "Name": "Puestos_Votacion",
+  "ProjectType": "Process",
+  "Description": "Proceso en blanco",
+  "MainFile": "Main.xaml"
+}

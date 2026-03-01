@@ -1,0 +1,1387 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=Studio.Generated.TypedDataTable1" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd2="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:sd3="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:uga="clr-namespace:UiPath.GSuite.Activities;assembly=UiPath.GSuite.Activities" xmlns:ugade="clr-namespace:UiPath.GSuite.Activities.Drive.Enums;assembly=UiPath.GSuite.Activities" xmlns:ugam="clr-namespace:UiPath.GSuite.Activities.Models;assembly=UiPath.GSuite.Activities" xmlns:ugase="clr-namespace:UiPath.GSuite.Activities.Sheets.Enums;assembly=UiPath.GSuite.Activities" xmlns:ugsm="clr-namespace:UiPath.GSuite.Sheets.Models;assembly=UiPath.GSuite" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:usau="clr-namespace:UiPath.Shared.Activities.Utils;assembly=UiPath.GSuite.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.GSuite.Activities.Sheets.Enums</x:String>
+      <x:String>UiPath.GSuite.Activities.Models</x:String>
+      <x:String>UiPath.GSuite.Sheets.Enums</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.GSuite.Sheets.Models</x:String>
+      <x:String>UiPath.GSuite.Activities.Drive.Enums</x:String>
+      <x:String>UiPath.Shared.Activities.Utils</x:String>
+      <x:String>UiPath.GSuite.Drive.Models</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.GSuite.Activities</x:String>
+      <x:String>UiPath.Shared.Activities.ConnectionService.Contracts</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>Studio.Generated.TypedDataTable1</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>Studio.Generated.TypedDataTable2</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1922,14752.666666666666" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="Puesto" />
+      <Variable x:TypeArguments="x:String" Name="Mesa" />
+      <Variable x:TypeArguments="x:Boolean" Default="True" Name="Ciclo_Ingreso" />
+      <Variable x:TypeArguments="sd3:DataTable" Name="TablaFiltrada" />
+      <Variable x:TypeArguments="x:String" Name="Cedula" />
+      <Variable x:TypeArguments="x:String" Name="Zona" />
+      <Variable x:TypeArguments="x:String" Name="Departamento" />
+      <Variable x:TypeArguments="x:String" Name="Municipio" />
+      <Variable x:TypeArguments="x:String" Name="Localidad" />
+      <Variable x:TypeArguments="x:String" Name="Codigo_Localidad" />
+      <Variable x:TypeArguments="x:String" Name="Link" />
+      <Variable x:TypeArguments="sd3:DataTable" Name="Tabla_Exportacion" />
+      <Variable x:TypeArguments="sd3:DataRow" Name="Fila_Tabla" />
+      <Variable x:TypeArguments="x:String" Name="Direccion" />
+      <Variable x:TypeArguments="x:String" Name="Fecha_Hora" />
+      <Variable x:TypeArguments="x:Int32" Default="0" Name="Cantidad_Ciclo" />
+      <Variable x:TypeArguments="sd:DataTable1" Name="Tabla_Datos" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="Secuencia" sap:VirtualizedContainerService.HintSize="800.6666666666666,14730" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="x:Boolean" Name="Ciclo_Infinito">
+          <Variable.Default>
+            <Literal x:TypeArguments="x:Boolean" Value="True" />
+          </Variable.Default>
+        </Variable>
+      </Sequence.Variables>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="766.6666666666666,14647.333333333334" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_2">
+        <ui:InterruptibleWhile.Body>
+          <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="764.6666666666666,14524.666666666666" sap2010:WorkflowViewState.IdRef="Sequence_14">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uga:ReadRangeConnections x:TypeArguments="sd:DataTable1" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="Robots_Puestos de Votacion " BrowserItemId="https://docs.google.com/spreadsheets/d/1yPVRZ0a_RwoeODiB8aUdtr7zcGftK5baZLW-AKKMHOM/edit?usp=drivesdk" ConnectionId="12bb7e90-e733-4a9f-aae9-ae38f2fc31ca" DisplayName="Leer rango" HasHeaders="True" sap:VirtualizedContainerService.HintSize="730.6666666666666,302.6666666666667" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_1" ItemSelectionMode="Browse" Range="'Base_General'" ReadAs="Values" Result="[Tabla_Datos]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
+              <uga:ReadRangeConnections.ColumnNames>
+                <x:Array Type="x:String">
+                  <x:String>Numero_Cedula</x:String>
+                  <x:String>Nombre</x:String>
+                  <x:String>Telefono</x:String>
+                  <x:String>Referencia</x:String>
+                  <x:String>Etiqueta</x:String>
+                  <x:String>Puesto</x:String>
+                  <x:String>Mesa</x:String>
+                  <x:String>Zona</x:String>
+                  <x:String>Departamento</x:String>
+                  <x:String>Municipio</x:String>
+                  <x:String>Localidad</x:String>
+                  <x:String>Codigo_Localidad</x:String>
+                  <x:String>Dirección</x:String>
+                  <x:String>Link_Busqueda</x:String>
+                  <x:String>Fecha_Hora</x:String>
+                </x:Array>
+              </uga:ReadRangeConnections.ColumnNames>
+              <uga:ReadRangeConnections.FileIdBackup>
+                <usau:BackupSlot x:TypeArguments="ugade:EDriveItemMode" x:Name="__ReferenceID0" StoredValue="Browse">
+                  <usau:BackupSlot.BackupValues>
+                    <scg:Dictionary x:TypeArguments="ugade:EDriveItemMode, scg:List(x:Object)" />
+                  </usau:BackupSlot.BackupValues>
+                </usau:BackupSlot>
+              </uga:ReadRangeConnections.FileIdBackup>
+              <uga:ReadRangeConnections.Item>
+                <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID0}" ConnectionDescriptor="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="https://docs.google.com/spreadsheets/d/1yPVRZ0a_RwoeODiB8aUdtr7zcGftK5baZLW-AKKMHOM/edit?usp=drivesdk" ConnectionKey="12bb7e90-e733-4a9f-aae9-ae38f2fc31ca" FriendlyName="Robots_Puestos de Votacion " FullPathHint="Robots_Puestos de Votacion " InputMode="Browse">
+                  <ugam:DriveItemArgument.DriveId>
+                    <InArgument x:TypeArguments="x:String" />
+                  </ugam:DriveItemArgument.DriveId>
+                  <ugam:DriveItemArgument.ParentIdFullPathHint>
+                    <InArgument x:TypeArguments="x:String">
+                      <Literal x:TypeArguments="x:String" Value="" />
+                    </InArgument>
+                  </ugam:DriveItemArgument.ParentIdFullPathHint>
+                </ugam:DriveItemArgument>
+              </uga:ReadRangeConnections.Item>
+              <uga:ReadRangeConnections.RangeMetadata>
+                <ugsm:RangeMetadataSlim ColumnStart="1" RangeType="Range" />
+              </uga:ReadRangeConnections.RangeMetadata>
+            </uga:ReadRangeConnections>
+            <ui:MultipleAssign DisplayName="Asignación múltiple" sap:VirtualizedContainerService.HintSize="730.6666666666666,425.3333333333333" sap2010:WorkflowViewState.IdRef="MultipleAssign_3">
+              <ui:MultipleAssign.AssignOperations>
+                <scg:List x:TypeArguments="ui:AssignOperation" Capacity="16">
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_14">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">[Cedula]</OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">
+                        <Literal x:TypeArguments="x:String" Value="" />
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_15">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">[Puesto]</OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">No Aparece</InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_16">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">[Mesa]</OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">
+                        <Literal x:TypeArguments="x:String" Value="" />
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_17">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">[Zona]</OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">
+                        <Literal x:TypeArguments="x:String" Value="" />
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_18">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">[Departamento]</OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">
+                        <Literal x:TypeArguments="x:String" Value="" />
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_19">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">[Municipio]</OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">
+                        <Literal x:TypeArguments="x:String" Value="" />
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_20">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">[Localidad]</OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">
+                        <Literal x:TypeArguments="x:String" Value="" />
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_21">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">[Codigo_Localidad]</OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">
+                        <Literal x:TypeArguments="x:String" Value="" />
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_22">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">[Direccion]</OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">
+                        <Literal x:TypeArguments="x:String" Value="" />
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_23">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">[Fecha_Hora]</OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">
+                        <Literal x:TypeArguments="x:String" Value="" />
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                </scg:List>
+              </ui:MultipleAssign.AssignOperations>
+            </ui:MultipleAssign>
+            <ui:BuildDataTable DataTable="[Tabla_Exportacion]" DisplayName="Crear tabla de datos" sap:VirtualizedContainerService.HintSize="730.6666666666666,92" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xD;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xD;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xD;&#xA;      &lt;xs:complexType&gt;&#xD;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xD;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xD;&#xA;            &lt;xs:complexType&gt;&#xD;&#xA;              &lt;xs:sequence&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Cedula&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xD;&#xA;                  &lt;xs:simpleType&gt;&#xD;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xD;&#xA;                      &lt;xs:maxLength value=&quot;100000&quot; /&gt;&#xD;&#xA;                    &lt;/xs:restriction&gt;&#xD;&#xA;                  &lt;/xs:simpleType&gt;&#xD;&#xA;                &lt;/xs:element&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Puesto&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xD;&#xA;                  &lt;xs:simpleType&gt;&#xD;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xD;&#xA;                      &lt;xs:maxLength value=&quot;10000000&quot; /&gt;&#xD;&#xA;                    &lt;/xs:restriction&gt;&#xD;&#xA;                  &lt;/xs:simpleType&gt;&#xD;&#xA;                &lt;/xs:element&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Mesa&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xD;&#xA;                  &lt;xs:simpleType&gt;&#xD;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xD;&#xA;                      &lt;xs:maxLength value=&quot;1000000&quot; /&gt;&#xD;&#xA;                    &lt;/xs:restriction&gt;&#xD;&#xA;                  &lt;/xs:simpleType&gt;&#xD;&#xA;                &lt;/xs:element&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Zona&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xD;&#xA;                  &lt;xs:simpleType&gt;&#xD;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xD;&#xA;                      &lt;xs:maxLength value=&quot;1000000&quot; /&gt;&#xD;&#xA;                    &lt;/xs:restriction&gt;&#xD;&#xA;                  &lt;/xs:simpleType&gt;&#xD;&#xA;                &lt;/xs:element&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Departamento&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xD;&#xA;                  &lt;xs:simpleType&gt;&#xD;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xD;&#xA;                      &lt;xs:maxLength value=&quot;10000000&quot; /&gt;&#xD;&#xA;                    &lt;/xs:restriction&gt;&#xD;&#xA;                  &lt;/xs:simpleType&gt;&#xD;&#xA;                &lt;/xs:element&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Municipio&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xD;&#xA;                  &lt;xs:simpleType&gt;&#xD;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xD;&#xA;                      &lt;xs:maxLength value=&quot;1000000&quot; /&gt;&#xD;&#xA;                    &lt;/xs:restriction&gt;&#xD;&#xA;                  &lt;/xs:simpleType&gt;&#xD;&#xA;                &lt;/xs:element&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Localidad&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xD;&#xA;                  &lt;xs:simpleType&gt;&#xD;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xD;&#xA;                      &lt;xs:maxLength value=&quot;1000000&quot; /&gt;&#xD;&#xA;                    &lt;/xs:restriction&gt;&#xD;&#xA;                  &lt;/xs:simpleType&gt;&#xD;&#xA;                &lt;/xs:element&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Codigo_Localidad&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xD;&#xA;                  &lt;xs:simpleType&gt;&#xD;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xD;&#xA;                      &lt;xs:maxLength value=&quot;1000000&quot; /&gt;&#xD;&#xA;                    &lt;/xs:restriction&gt;&#xD;&#xA;                  &lt;/xs:simpleType&gt;&#xD;&#xA;                &lt;/xs:element&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Direccion&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xD;&#xA;                  &lt;xs:simpleType&gt;&#xD;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xD;&#xA;                      &lt;xs:maxLength value=&quot;10000000&quot; /&gt;&#xD;&#xA;                    &lt;/xs:restriction&gt;&#xD;&#xA;                  &lt;/xs:simpleType&gt;&#xD;&#xA;                &lt;/xs:element&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Link&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xD;&#xA;                  &lt;xs:simpleType&gt;&#xD;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xD;&#xA;                      &lt;xs:maxLength value=&quot;100000000&quot; /&gt;&#xD;&#xA;                    &lt;/xs:restriction&gt;&#xD;&#xA;                  &lt;/xs:simpleType&gt;&#xD;&#xA;                &lt;/xs:element&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Fecha_Hora&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xD;&#xA;                  &lt;xs:simpleType&gt;&#xD;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xD;&#xA;                      &lt;xs:maxLength value=&quot;1000000&quot; /&gt;&#xD;&#xA;                    &lt;/xs:restriction&gt;&#xD;&#xA;                  &lt;/xs:simpleType&gt;&#xD;&#xA;                &lt;/xs:element&gt;&#xD;&#xA;              &lt;/xs:sequence&gt;&#xD;&#xA;            &lt;/xs:complexType&gt;&#xD;&#xA;          &lt;/xs:element&gt;&#xD;&#xA;        &lt;/xs:choice&gt;&#xD;&#xA;      &lt;/xs:complexType&gt;&#xD;&#xA;    &lt;/xs:element&gt;&#xD;&#xA;  &lt;/xs:schema&gt;&#xD;&#xA;&lt;/NewDataSet&gt;" />
+            <ui:FilterDataTable DataTable="[Tabla_Datos]" DisplayName="Filtrar tabla de datos" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="730.6666666666666,196" sap2010:WorkflowViewState.IdRef="FilterDataTable_1" OutputDataTable="[TablaFiltrada]" SelectColumnsMode="Remove">
+              <ui:FilterDataTable.Filters>
+                <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
+                  <ui:FilterOperationArgument Operand="{x:Null}" BooleanOperator="And" Operator="EMPTY">
+                    <ui:FilterOperationArgument.Column>
+                      <InArgument x:TypeArguments="x:String">["Puesto"]</InArgument>
+                    </ui:FilterOperationArgument.Column>
+                  </ui:FilterOperationArgument>
+                </scg:List>
+              </ui:FilterDataTable.Filters>
+              <ui:FilterDataTable.SelectColumns>
+                <scg:List x:TypeArguments="InArgument" Capacity="4">
+                  <x:Null />
+                </scg:List>
+              </ui:FilterDataTable.SelectColumns>
+            </ui:FilterDataTable>
+            <ui:MultipleAssign DisplayName="Asignación múltiple" sap:VirtualizedContainerService.HintSize="730.6666666666666,180" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+              <ui:MultipleAssign.AssignOperations>
+                <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">[Cedula]</OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">[TablaFiltrada.Rows(1)("Numero_Cedula").ToString()]</InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:Boolean">[Ciclo_Ingreso]</OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:Boolean">True</InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                </scg:List>
+              </ui:MultipleAssign.AssignOperations>
+            </ui:MultipleAssign>
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Elecciones Colombia" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="730.6666666666666,13268.666666666666" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="491986b4-9132-423d-a009-74060b91ccd1" Version="V2">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="728.6666666666666,13070" sap2010:WorkflowViewState.IdRef="Sequence_1">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="694.6666666666666,13006" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1">
+                      <ui:InterruptibleDoWhile.Body>
+                        <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="692.6666666666666,12883.333333333334" sap2010:WorkflowViewState.IdRef="Sequence_44">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Delay DisplayName="Retraso" Duration="00:00:05" sap:VirtualizedContainerService.HintSize="658.6666666666666,128" sap2010:WorkflowViewState.IdRef="Delay_2" />
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Escribir en 'Ingresa tu cédula de ci…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="658.6666666666666,248" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" Text="[Cedula]" Version="V5">
+                            <uix:NTypeInto.Target>
+                              <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/identificacion" ContentHash="wtU0Eb-OpEaQ3iV3IQQX_w" DesignTimeRectangle="1668, 899, 503, 75" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='document' tag='INPUT' type='number' class='border border-[#D1D5DB] w-full h-[50px] rounded-lg bg-white px-4 outline-none' placeholder='Ej: 12345678' aaname='Ingresa tu cédula de ciudadanía' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="8ba68630-5bec-4c5e-8737-5d81a9f5cde6" InformativeScreenshot="2b4e8af1734214af05c3ca3320216ee4.jpg" IsResponsive="True" Reference="Bfm9rTQjp0yuZZWkJHr_zw/dP0HVlwL9UiPMfZgs_Nowg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="51179adb-9f1a-4154-a99c-a1fccc510c4e" CvTextArea="1668, 854, 415, 29" CvTextArgument="Ingresa tu cédula de ciudadanía" CvType="Text" DesignTimeRectangle="1668, 849, 503, 38" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='font-montserrat text-[17px] font-medium mb-2 block' aaname='Ingresa tu cédula de ciudadanía' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Ingresa tu cédula de ciudadanía' /&gt;" Guid="cb83f38f-dcc1-4603-9299-b31169bb3cc5" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NTypeInto.Target>
+                            <uix:NTypeInto.VerifyOptions>
+                              <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                  <InArgument x:TypeArguments="x:Boolean" />
+                                </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                  <InArgument x:TypeArguments="x:Double" />
+                                </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              </uix:VerifyExecutionTypeIntoOptions>
+                            </uix:NTypeInto.VerifyOptions>
+                          </uix:NTypeInto>
+                          <uix:NCheckState DisplayName="Comprobar estado de aplicación 'Cualquier inquietud o r…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="658.6666666666666,12447.333333333334" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" Timeout="30" Version="V5">
+                            <uix:NCheckState.IfExists>
+                              <Sequence DisplayName="Aparece el destino" sap:VirtualizedContainerService.HintSize="656.6666666666666,11306.666666666666" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <TryCatch DisplayName="Intentar capturar" sap:VirtualizedContainerService.HintSize="622.6666666666666,691.3333333333334" sap2010:WorkflowViewState.IdRef="TryCatch_10">
+                                  <TryCatch.Try>
+                                    <Sequence DisplayName="Intentar" sap:VirtualizedContainerService.HintSize="450,250" sap2010:WorkflowViewState.IdRef="Sequence_45">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <uix:NClick ActivateBefore="True" ClickType="Single" ContinueOnError="True" DisplayName="Clic 'Consultar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,190" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" Version="V5">
+                                        <uix:NClick.Target>
+                                          <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/identificacion" CVScreenId="0fe0dc16-f07a-45d9-95f6-f77698084ae7" ContentHash="G9GdKcOYy0ygeGvz2XoLMQ" CvTextArea="1851, 1095, 135, 24" CvTextArgument="Consultar" CvType="Text" DesignTimeRectangle="1818, 1070, 203, 78" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Consultar' tag='BUTTON' /&gt;" Guid="db10a3fd-677a-4b93-8495-bf1947ffa249" InformativeScreenshot="084dad16b43c3875806c97be2885aec2.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/hCmvph5pOkWH_yOEOQJz4w" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                                            <uix:TargetAnchorable.Anchors>
+                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                <uix:Target CVScreenId="0fe0dc16-f07a-45d9-95f6-f77698084ae7" CvTextArea="1667, 995, 377, 21" CvTextArgument="Ingresa tu número de documento sin puntos" CvType="Text" DesignTimeRectangle="1668, 992, 503, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='SPAN' class='block text-xs mt-3 text-muted' aaname='Ingresa tu número de documento sin puntos' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Ingresa tu número de documento sin puntos' /&gt;" Guid="762ababf-0592-4d0f-9991-60321dbf03d6" SearchSteps="FuzzySelector, CV" />
+                                              </scg:List>
+                                            </uix:TargetAnchorable.Anchors>
+                                          </uix:TargetAnchorable>
+                                        </uix:NClick.Target>
+                                      </uix:NClick>
+                                    </Sequence>
+                                  </TryCatch.Try>
+                                  <TryCatch.Catches>
+                                    <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_10">
+                                      <ActivityAction x:TypeArguments="s:Exception">
+                                        <ActivityAction.Argument>
+                                          <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                                        </ActivityAction.Argument>
+                                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,178.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_46">
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                          <uix:NGoToUrl DisplayName="Ir a URL - registraduria.gov.co" sap:VirtualizedContainerService.HintSize="416,118.66666666666667" sap2010:WorkflowViewState.IdRef="NGoToUrl_5" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" Url="https://eleccionescolombia.registraduria.gov.co/identificacion" Version="V5" />
+                                        </Sequence>
+                                      </ActivityAction>
+                                    </Catch>
+                                  </TryCatch.Catches>
+                                  <TryCatch.Finally>
+                                    <Sequence DisplayName="Finalmente" sap:VirtualizedContainerService.HintSize="450,90.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_47">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                    </Sequence>
+                                  </TryCatch.Finally>
+                                </TryCatch>
+                                <uix:NCheckState DisplayName="Comprobar estado de aplicación 'Documento de identidad'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="622.6666666666666,10551.333333333334" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" Timeout="5" Version="V5">
+                                  <uix:NCheckState.IfExists>
+                                    <Sequence DisplayName="Aparece el destino" sap:VirtualizedContainerService.HintSize="620.6666666666666,5096.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <TryCatch DisplayName="Intentar capturar" sap:VirtualizedContainerService.HintSize="478.6666666666667,440" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+                                        <TryCatch.Finally>
+                                          <Sequence DisplayName="Finalmente" sap:VirtualizedContainerService.HintSize="450,94.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                          </Sequence>
+                                        </TryCatch.Finally>
+                                        <TryCatch.Try>
+                                          <Sequence DisplayName="Intentar" sap:VirtualizedContainerService.HintSize="450,202" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <uix:NGetText ContinueOnError="True" DisplayName="Obtener texto 'Puesto'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,138" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" TextString="[Puesto]" Timeout="2" Version="V5">
+                                              <uix:NGetText.Target>
+                                                <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" ContentHash="KUjzOXDedU2J0ZPD74Bzag" CvType="AnyWordGroup" DesignTimeRectangle="1739, 1107, 155, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='text-[14px] md:text-[18px] font-light' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="0e79222e-3e0d-41a8-a296-6b939bc4ac2e" InformativeScreenshot="ad1a60f458f0cef19cd5f00daab9abef.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/S6oQ8CjFA0ObNxYEeAl8LQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                                                  <uix:TargetAnchorable.Anchors>
+                                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                      <uix:Target CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" CvTextArea="1770, 1062, 90, 22" CvTextArgument="Puesto" CvType="Text" DesignTimeRectangle="1739, 1053, 155, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Puesto' tag='SPAN' type='' class='block font-semibold text-[14px] md:text-[18px]' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Puesto' /&gt;" Guid="d89bfddb-0e6a-4721-8d8c-def9e5f3003b" SearchSteps="FuzzySelector, CV" />
+                                                    </scg:List>
+                                                  </uix:TargetAnchorable.Anchors>
+                                                </uix:TargetAnchorable>
+                                              </uix:NGetText.Target>
+                                            </uix:NGetText>
+                                          </Sequence>
+                                        </TryCatch.Try>
+                                      </TryCatch>
+                                      <TryCatch DisplayName="Intentar capturar" sap:VirtualizedContainerService.HintSize="478.6666666666667,440" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+                                        <TryCatch.Finally>
+                                          <Sequence DisplayName="Finalmente" sap:VirtualizedContainerService.HintSize="450,94.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_20">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                          </Sequence>
+                                        </TryCatch.Finally>
+                                        <TryCatch.Try>
+                                          <Sequence DisplayName="Intentar" sap:VirtualizedContainerService.HintSize="450,202" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <uix:NGetText ContinueOnError="True" DisplayName="Obtener texto 'Mesa'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,138" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" TextString="[Mesa]" Timeout="2" Version="V5">
+                                              <uix:NGetText.Target>
+                                                <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" ContentHash="aR9op--H4UqGI6tfv28jYw" DesignTimeRectangle="1930, 1107, 70, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='text-[14px] md:text-[18px] font-light' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="0a4f318c-1fbb-4c3a-a1f5-98f453c30ccf" InformativeScreenshot="3105dd8928db7cc9380ca500bf028c69.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/me7kUuEKcUubk-8YckNcDQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                                                  <uix:TargetAnchorable.Anchors>
+                                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                      <uix:Target CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" CvTextArea="1929, 1061, 69, 24" CvTextArgument="Mesa" CvType="Text" DesignTimeRectangle="1930, 1053, 70, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Mesa' tag='SPAN' type='' class='block font-semibold text-[14px] md:text-[18px]' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Mesa' /&gt;" Guid="c10fb3d9-c910-4d1b-b47b-6eab9fb5c693" SearchSteps="FuzzySelector, CV" />
+                                                    </scg:List>
+                                                  </uix:TargetAnchorable.Anchors>
+                                                </uix:TargetAnchorable>
+                                              </uix:NGetText.Target>
+                                            </uix:NGetText>
+                                          </Sequence>
+                                        </TryCatch.Try>
+                                      </TryCatch>
+                                      <TryCatch DisplayName="Intentar capturar" sap:VirtualizedContainerService.HintSize="478.6666666666667,440" sap2010:WorkflowViewState.IdRef="TryCatch_3">
+                                        <TryCatch.Finally>
+                                          <Sequence DisplayName="Finalmente" sap:VirtualizedContainerService.HintSize="450,94.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_23">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                          </Sequence>
+                                        </TryCatch.Finally>
+                                        <TryCatch.Try>
+                                          <Sequence DisplayName="Intentar" sap:VirtualizedContainerService.HintSize="450,202" sap2010:WorkflowViewState.IdRef="Sequence_21">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <uix:NGetText ContinueOnError="True" DisplayName="Obtener texto 'Zona'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,138" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" TextString="[Zona]" Timeout="2" Version="V5">
+                                              <uix:NGetText.Target>
+                                                <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" ContentHash="4BrKYgRMvkKiwwAvosiDqQ" DesignTimeRectangle="2036, 1107, 64, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='text-[14px] md:text-[18px] font-light' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="f89fbd92-1901-4df9-9303-d6d3d62c6afe" InformativeScreenshot="f81dcd00ab8095b3c0163d9eb251c467.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/nSBA8Y8UFUi51q0aS7cBcg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                                                  <uix:TargetAnchorable.Anchors>
+                                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                      <uix:Target CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" CvTextArea="2033, 1062, 67, 24" CvTextArgument="Zona" CvType="Text" DesignTimeRectangle="2036, 1053, 64, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Zona' tag='SPAN' type='' class='block font-semibold text-[14px] md:text-[18px]' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Zona' /&gt;" Guid="dda681f7-f5a9-45c4-bb52-746751a586a0" SearchSteps="FuzzySelector, CV" />
+                                                    </scg:List>
+                                                  </uix:TargetAnchorable.Anchors>
+                                                </uix:TargetAnchorable>
+                                              </uix:NGetText.Target>
+                                            </uix:NGetText>
+                                          </Sequence>
+                                        </TryCatch.Try>
+                                      </TryCatch>
+                                      <TryCatch DisplayName="Intentar capturar" sap:VirtualizedContainerService.HintSize="478.6666666666667,440" sap2010:WorkflowViewState.IdRef="TryCatch_4">
+                                        <TryCatch.Finally>
+                                          <Sequence DisplayName="Finalmente" sap:VirtualizedContainerService.HintSize="450,94.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_26">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                          </Sequence>
+                                        </TryCatch.Finally>
+                                        <TryCatch.Try>
+                                          <Sequence DisplayName="Intentar" sap:VirtualizedContainerService.HintSize="450,202" sap2010:WorkflowViewState.IdRef="Sequence_24">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <uix:NGetText ContinueOnError="True" DisplayName="Obtener texto 'Departamento'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,138" sap2010:WorkflowViewState.IdRef="NGetText_4" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" TextString="[Departamento]" Timeout="2" Version="V5">
+                                              <uix:NGetText.Target>
+                                                <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" ContentHash="anjw8lP_OEKRCOhJ6DuwUQ" DesignTimeRectangle="1249, 1263, 191, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='text-[14px] md:text-[18px] font-light' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="b89acd86-be82-44c2-9da6-993092dabd3e" InformativeScreenshot="03d1624766c4aeb88fcba4fcdb4e5fa0.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/tJEzHhmeWU-_E4HSKeTtDw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                                                  <uix:TargetAnchorable.Anchors>
+                                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                      <uix:Target CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" CvTextArea="1248, 1218, 193, 28" CvTextArgument="Departamento" CvType="Text" DesignTimeRectangle="1249, 1209, 191, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Departamento' tag='SPAN' type='' class='block font-semibold text-[14px] md:text-[18px]' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Departamento' /&gt;" Guid="3ff85695-08f3-4fa4-81a4-c2f97bcf87bf" SearchSteps="FuzzySelector, CV" />
+                                                    </scg:List>
+                                                  </uix:TargetAnchorable.Anchors>
+                                                </uix:TargetAnchorable>
+                                              </uix:NGetText.Target>
+                                            </uix:NGetText>
+                                          </Sequence>
+                                        </TryCatch.Try>
+                                      </TryCatch>
+                                      <TryCatch DisplayName="Intentar capturar" sap:VirtualizedContainerService.HintSize="478.6666666666667,440" sap2010:WorkflowViewState.IdRef="TryCatch_5">
+                                        <TryCatch.Finally>
+                                          <Sequence DisplayName="Finalmente" sap:VirtualizedContainerService.HintSize="450,94.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_29">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                          </Sequence>
+                                        </TryCatch.Finally>
+                                        <TryCatch.Try>
+                                          <Sequence DisplayName="Intentar" sap:VirtualizedContainerService.HintSize="450,202" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <uix:NGetText ContinueOnError="True" DisplayName="Obtener texto 'Municipio'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,138" sap2010:WorkflowViewState.IdRef="NGetText_5" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" TextString="[Municipio]" Timeout="2" Version="V5">
+                                              <uix:NGetText.Target>
+                                                <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" ContentHash="mhkY9Mh0LEiuJN0RL3Ggpg" DesignTimeRectangle="1495, 1263, 171, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='text-[14px] md:text-[18px] font-light' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="3c6905a9-e7f4-4f00-ae45-8e6cfcb4a826" InformativeScreenshot="8822aa3631fd0477c22a7760efcfd1f0.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/LdNvoCOB-0iItmrxkW0JRg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                                                  <uix:TargetAnchorable.Anchors>
+                                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                      <uix:Target CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" CvTextArea="1515, 1217, 130, 30" CvTextArgument="Municipio" CvType="Text" DesignTimeRectangle="1495, 1209, 171, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Municipio' tag='SPAN' type='' class='block font-semibold text-[14px] md:text-[18px]' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Municipio' /&gt;" Guid="280d012d-c796-4b88-b49c-35acec9a0bf2" SearchSteps="FuzzySelector, CV" />
+                                                    </scg:List>
+                                                  </uix:TargetAnchorable.Anchors>
+                                                </uix:TargetAnchorable>
+                                              </uix:NGetText.Target>
+                                            </uix:NGetText>
+                                          </Sequence>
+                                        </TryCatch.Try>
+                                      </TryCatch>
+                                      <TryCatch DisplayName="Intentar capturar" sap:VirtualizedContainerService.HintSize="478.6666666666667,440" sap2010:WorkflowViewState.IdRef="TryCatch_6">
+                                        <TryCatch.Finally>
+                                          <Sequence DisplayName="Finalmente" sap:VirtualizedContainerService.HintSize="450,94.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_32">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                          </Sequence>
+                                        </TryCatch.Finally>
+                                        <TryCatch.Try>
+                                          <Sequence DisplayName="Intentar" sap:VirtualizedContainerService.HintSize="450,202" sap2010:WorkflowViewState.IdRef="Sequence_30">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <uix:NGetText ContinueOnError="True" DisplayName="Obtener texto 'Localidad'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,138" sap2010:WorkflowViewState.IdRef="NGetText_6" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" TextString="[Localidad]" Timeout="2" Version="V5">
+                                              <uix:NGetText.Target>
+                                                <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" ContentHash="O4F35rqx-kCP_CzLpQtO0A" DesignTimeRectangle="1721, 1263, 303, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='text-[14px] md:text-[18px] font-light' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="aa3fc57f-750f-4698-8886-f51aafbfe634" InformativeScreenshot="7cd7634570359a80f28313b8c466b4e2.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/efrnUsXjfU-GzUeszRvXeg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                                                  <uix:TargetAnchorable.Anchors>
+                                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                      <uix:Target CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" CvTextArea="1809, 1215, 124, 27" CvTextArgument="Localidad" CvType="Text" DesignTimeRectangle="1721, 1209, 303, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Localidad' tag='SPAN' type='' class='block font-semibold text-[14px] md:text-[18px]' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Localidad' /&gt;" Guid="d407ffb6-8080-48ec-a375-fe68b22149f0" SearchSteps="FuzzySelector, CV" />
+                                                    </scg:List>
+                                                  </uix:TargetAnchorable.Anchors>
+                                                </uix:TargetAnchorable>
+                                              </uix:NGetText.Target>
+                                            </uix:NGetText>
+                                          </Sequence>
+                                        </TryCatch.Try>
+                                      </TryCatch>
+                                      <TryCatch DisplayName="Intentar capturar" sap:VirtualizedContainerService.HintSize="478.6666666666667,440" sap2010:WorkflowViewState.IdRef="TryCatch_7">
+                                        <TryCatch.Finally>
+                                          <Sequence DisplayName="Finalmente" sap:VirtualizedContainerService.HintSize="450,94.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_35">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                          </Sequence>
+                                        </TryCatch.Finally>
+                                        <TryCatch.Try>
+                                          <Sequence DisplayName="Intentar" sap:VirtualizedContainerService.HintSize="450,202" sap2010:WorkflowViewState.IdRef="Sequence_33">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <uix:NGetText ContinueOnError="True" DisplayName="Obtener texto 'Código localidad'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,138" sap2010:WorkflowViewState.IdRef="NGetText_7" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" TextString="[Codigo_Localidad]" Timeout="2" Version="V5">
+                                              <uix:NGetText.Target>
+                                                <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" ContentHash="-5WqsImJRU6x6DDIA5gtXg" DesignTimeRectangle="2079, 1263, 214, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl type='' tag='SPAN' class='text-[14px] md:text-[18px] font-light' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="2e92970c-894d-4cbf-a020-d6a63c4a62fc" InformativeScreenshot="5fdd0f5f281caeb5d83a1501652c163e.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/rFr2roNdGkqehLTlcrdAdQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                                                  <uix:TargetAnchorable.Anchors>
+                                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                      <uix:Target CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" CvTextArea="2078, 1215, 216, 31" CvTextArgument="Código localidad" CvType="Text" DesignTimeRectangle="2079, 1209, 214, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Código localidad' tag='SPAN' type='' class='block font-semibold text-[14px] md:text-[18px]' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Código localidad' /&gt;" Guid="c53e697d-b31d-4990-aef0-9e287c7d237e" SearchSteps="FuzzySelector, CV" />
+                                                    </scg:List>
+                                                  </uix:TargetAnchorable.Anchors>
+                                                </uix:TargetAnchorable>
+                                              </uix:NGetText.Target>
+                                            </uix:NGetText>
+                                          </Sequence>
+                                        </TryCatch.Try>
+                                      </TryCatch>
+                                      <TryCatch DisplayName="Intentar capturar" sap:VirtualizedContainerService.HintSize="478.6666666666667,440" sap2010:WorkflowViewState.IdRef="TryCatch_8">
+                                        <TryCatch.Finally>
+                                          <Sequence DisplayName="Finalmente" sap:VirtualizedContainerService.HintSize="450,94.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_38">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                          </Sequence>
+                                        </TryCatch.Finally>
+                                        <TryCatch.Try>
+                                          <Sequence DisplayName="Intentar" sap:VirtualizedContainerService.HintSize="450,202" sap2010:WorkflowViewState.IdRef="Sequence_36">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <uix:NGetText ContinueOnError="True" DisplayName="Obtener texto 'Dirección'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,138" sap2010:WorkflowViewState.IdRef="NGetText_8" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" TextString="[Direccion]" Timeout="2" Version="V5">
+                                              <uix:NGetText.Target>
+                                                <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" ContentHash="8LiYXXkwlECL8Q5pWJNgYg" DesignTimeRectangle="2348, 1263, 242, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='text-[14px] md:text-[18px] font-light' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="f2929c94-b6b3-407e-ae09-390ec8a7f2e2" InformativeScreenshot="00aaceac1154254d0ab4033f428261eb.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/CGUR6DmFAUCcVgaVcJbEcg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                                                  <uix:TargetAnchorable.Anchors>
+                                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                      <uix:Target CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" CvTextArea="2406, 1217, 124, 25" CvTextArgument="Dirección" CvType="Text" DesignTimeRectangle="2348, 1209, 242, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Dirección' tag='SPAN' type='' class='block font-semibold text-[14px] md:text-[18px]' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Dirección' /&gt;" Guid="c877b81e-9113-44c5-8a2b-9bc85772f1c4" SearchSteps="FuzzySelector, CV" />
+                                                    </scg:List>
+                                                  </uix:TargetAnchorable.Anchors>
+                                                </uix:TargetAnchorable>
+                                              </uix:NGetText.Target>
+                                            </uix:NGetText>
+                                          </Sequence>
+                                        </TryCatch.Try>
+                                      </TryCatch>
+                                      <ui:MultipleAssign DisplayName="Asignación múltiple" sap:VirtualizedContainerService.HintSize="478.6666666666667,460" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
+                                        <ui:MultipleAssign.AssignOperations>
+                                          <scg:List x:TypeArguments="ui:AssignOperation" Capacity="16">
+                                            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_3">
+                                              <ui:AssignOperation.To>
+                                                <OutArgument x:TypeArguments="sd3:DataRow">[Fila_Tabla]</OutArgument>
+                                              </ui:AssignOperation.To>
+                                              <ui:AssignOperation.Value>
+                                                <InArgument x:TypeArguments="sd3:DataRow">[Tabla_Exportacion.NewRow]</InArgument>
+                                              </ui:AssignOperation.Value>
+                                            </ui:AssignOperation>
+                                            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_4">
+                                              <ui:AssignOperation.To>
+                                                <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Cedula")]</OutArgument>
+                                              </ui:AssignOperation.To>
+                                              <ui:AssignOperation.Value>
+                                                <InArgument x:TypeArguments="x:Object">[Cedula]</InArgument>
+                                              </ui:AssignOperation.Value>
+                                            </ui:AssignOperation>
+                                            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_5">
+                                              <ui:AssignOperation.To>
+                                                <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Puesto")]</OutArgument>
+                                              </ui:AssignOperation.To>
+                                              <ui:AssignOperation.Value>
+                                                <InArgument x:TypeArguments="x:String">[Puesto]</InArgument>
+                                              </ui:AssignOperation.Value>
+                                            </ui:AssignOperation>
+                                            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_6">
+                                              <ui:AssignOperation.To>
+                                                <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Mesa")]</OutArgument>
+                                              </ui:AssignOperation.To>
+                                              <ui:AssignOperation.Value>
+                                                <InArgument x:TypeArguments="x:String">[Mesa]</InArgument>
+                                              </ui:AssignOperation.Value>
+                                            </ui:AssignOperation>
+                                            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_7">
+                                              <ui:AssignOperation.To>
+                                                <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Zona")]</OutArgument>
+                                              </ui:AssignOperation.To>
+                                              <ui:AssignOperation.Value>
+                                                <InArgument x:TypeArguments="x:Object">[Zona]</InArgument>
+                                              </ui:AssignOperation.Value>
+                                            </ui:AssignOperation>
+                                            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_8">
+                                              <ui:AssignOperation.To>
+                                                <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Departamento")]</OutArgument>
+                                              </ui:AssignOperation.To>
+                                              <ui:AssignOperation.Value>
+                                                <InArgument x:TypeArguments="x:Object">[Departamento]</InArgument>
+                                              </ui:AssignOperation.Value>
+                                            </ui:AssignOperation>
+                                            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_9">
+                                              <ui:AssignOperation.To>
+                                                <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Municipio")]</OutArgument>
+                                              </ui:AssignOperation.To>
+                                              <ui:AssignOperation.Value>
+                                                <InArgument x:TypeArguments="x:Object">[Municipio]</InArgument>
+                                              </ui:AssignOperation.Value>
+                                            </ui:AssignOperation>
+                                            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_10">
+                                              <ui:AssignOperation.To>
+                                                <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Localidad")]</OutArgument>
+                                              </ui:AssignOperation.To>
+                                              <ui:AssignOperation.Value>
+                                                <InArgument x:TypeArguments="x:Object">[Localidad]</InArgument>
+                                              </ui:AssignOperation.Value>
+                                            </ui:AssignOperation>
+                                            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_11">
+                                              <ui:AssignOperation.To>
+                                                <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Codigo_Localidad")]</OutArgument>
+                                              </ui:AssignOperation.To>
+                                              <ui:AssignOperation.Value>
+                                                <InArgument x:TypeArguments="x:Object">[Codigo_Localidad]</InArgument>
+                                              </ui:AssignOperation.Value>
+                                            </ui:AssignOperation>
+                                            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_12">
+                                              <ui:AssignOperation.To>
+                                                <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Direccion")]</OutArgument>
+                                              </ui:AssignOperation.To>
+                                              <ui:AssignOperation.Value>
+                                                <InArgument x:TypeArguments="x:String">[Direccion]</InArgument>
+                                              </ui:AssignOperation.Value>
+                                            </ui:AssignOperation>
+                                            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_24">
+                                              <ui:AssignOperation.To>
+                                                <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Fecha_Hora")]</OutArgument>
+                                              </ui:AssignOperation.To>
+                                              <ui:AssignOperation.Value>
+                                                <InArgument x:TypeArguments="x:Object">[DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")]</InArgument>
+                                              </ui:AssignOperation.Value>
+                                            </ui:AssignOperation>
+                                          </scg:List>
+                                        </ui:MultipleAssign.AssignOperations>
+                                      </ui:MultipleAssign>
+                                      <ui:AddDataRow ArrayRow="{x:Null}" DataRow="[Fila_Tabla]" DataTable="[Tabla_Exportacion]" DisplayName="Añadir fila de datos" sap:VirtualizedContainerService.HintSize="478.6666666666667,227.33333333333334" sap2010:WorkflowViewState.IdRef="AddDataRow_1" />
+                                      <uga:WriteRangeConnections ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="Robots_Puestos de Votacion " BrowserItemId="https://docs.google.com/spreadsheets/d/1yPVRZ0a_RwoeODiB8aUdtr7zcGftK5baZLW-AKKMHOM/edit?usp=drivesdk" ConnectionId="12bb7e90-e733-4a9f-aae9-ae38f2fc31ca" DisplayName="Escribir rango" sap:VirtualizedContainerService.HintSize="478.6666666666667,408" sap2010:WorkflowViewState.IdRef="WriteRangeConnections_1" IncludeHeaders="False" ItemSelectionMode="Browse" Range="'Consulta_Robots'" RowPosition="0" Source="[Tabla_Exportacion]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False" WriteMode="Append">
+                                        <uga:WriteRangeConnections.FileIdBackup>
+                                          <usau:BackupSlot x:TypeArguments="ugade:EDriveItemMode" x:Name="__ReferenceID1" StoredValue="Browse">
+                                            <usau:BackupSlot.BackupValues>
+                                              <scg:Dictionary x:TypeArguments="ugade:EDriveItemMode, scg:List(x:Object)" />
+                                            </usau:BackupSlot.BackupValues>
+                                          </usau:BackupSlot>
+                                        </uga:WriteRangeConnections.FileIdBackup>
+                                        <uga:WriteRangeConnections.Item>
+                                          <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID1}" ConnectionDescriptor="{x:Null}" ConnectionKey="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="https://docs.google.com/spreadsheets/d/1yPVRZ0a_RwoeODiB8aUdtr7zcGftK5baZLW-AKKMHOM/edit?usp=drivesdk" FriendlyName="Robots_Puestos de Votacion " FullPathHint="Robots_Puestos de Votacion " InputMode="Browse">
+                                            <ugam:DriveItemArgument.DriveId>
+                                              <InArgument x:TypeArguments="x:String" />
+                                            </ugam:DriveItemArgument.DriveId>
+                                            <ugam:DriveItemArgument.ParentIdFullPathHint>
+                                              <InArgument x:TypeArguments="x:String">
+                                                <Literal x:TypeArguments="x:String" Value="" />
+                                              </InArgument>
+                                            </ugam:DriveItemArgument.ParentIdFullPathHint>
+                                          </ugam:DriveItemArgument>
+                                        </uga:WriteRangeConnections.Item>
+                                        <uga:WriteRangeConnections.RangeWriteModeBackup>
+                                          <usau:BackupSlot x:TypeArguments="ugase:RangeWriteMode" StoredValue="Append">
+                                            <usau:BackupSlot.BackupValues>
+                                              <scg:List x:TypeArguments="x:Object" x:Key="Overwrite" Capacity="1">
+                                                <x:String></x:String>
+                                              </scg:List>
+                                            </usau:BackupSlot.BackupValues>
+                                          </usau:BackupSlot>
+                                        </uga:WriteRangeConnections.RangeWriteModeBackup>
+                                      </uga:WriteRangeConnections>
+                                      <Assign DisplayName="Establecer valor de variable" sap:VirtualizedContainerService.HintSize="478.6666666666667,180.66666666666666" sap2010:WorkflowViewState.IdRef="Assign_1">
+                                        <Assign.To>
+                                          <OutArgument x:TypeArguments="x:Boolean">[Ciclo_Ingreso]</OutArgument>
+                                        </Assign.To>
+                                        <Assign.Value>
+                                          <InArgument x:TypeArguments="x:Boolean">[False]</InArgument>
+                                        </Assign.Value>
+                                      </Assign>
+                                      <ui:ClearDataTable DataTable="[Tabla_Exportacion]" DisplayName="Borrar tabla de datos" sap:VirtualizedContainerService.HintSize="478.6666666666667,118" sap2010:WorkflowViewState.IdRef="ClearDataTable_1" />
+                                      <uix:NGoToUrl DisplayName="Ir a URL - registraduria.gov.co" sap:VirtualizedContainerService.HintSize="478.6666666666667,118.66666666666667" sap2010:WorkflowViewState.IdRef="NGoToUrl_3" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" Url="https://eleccionescolombia.registraduria.gov.co/identificacion" Version="V5" />
+                                    </Sequence>
+                                  </uix:NCheckState.IfExists>
+                                  <uix:NCheckState.IfNotExists>
+                                    <Sequence DisplayName="No aparece el destino" sap:VirtualizedContainerService.HintSize="620.6666666666666,5111.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <uix:NCheckState DisplayName="Comprobar estado de aplicación 'Cancelada por Muerte'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="586.6666666666666,5047.333333333333" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" Version="V5">
+                                        <uix:NCheckState.IfExists>
+                                          <Sequence DisplayName="Aparece el destino" sap:VirtualizedContainerService.HintSize="584.6666666666666,1938.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_48">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <ui:MultipleAssign DisplayName="Asignación múltiple" sap:VirtualizedContainerService.HintSize="478.6666666666667,214.66666666666666" sap2010:WorkflowViewState.IdRef="MultipleAssign_5">
+                                              <ui:MultipleAssign.AssignOperations>
+                                                <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                                                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_36">
+                                                    <ui:AssignOperation.To>
+                                                      <OutArgument x:TypeArguments="x:String">[Puesto]</OutArgument>
+                                                    </ui:AssignOperation.To>
+                                                    <ui:AssignOperation.Value>
+                                                      <InArgument x:TypeArguments="x:String">Cancelada por Muerte</InArgument>
+                                                    </ui:AssignOperation.Value>
+                                                  </ui:AssignOperation>
+                                                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_37">
+                                                    <ui:AssignOperation.To>
+                                                      <OutArgument x:TypeArguments="x:String">[Zona]</OutArgument>
+                                                    </ui:AssignOperation.To>
+                                                    <ui:AssignOperation.Value>
+                                                      <InArgument x:TypeArguments="x:String">COMUNIQUESE CON LA REGISTRADURIA NACIONAL DEL ESTADO CIVIL - DIRECCION DE IDENTIFICACION</InArgument>
+                                                    </ui:AssignOperation.Value>
+                                                  </ui:AssignOperation>
+                                                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_38">
+                                                    <ui:AssignOperation.To>
+                                                      <OutArgument x:TypeArguments="x:String">[Departamento]</OutArgument>
+                                                    </ui:AssignOperation.To>
+                                                    <ui:AssignOperation.Value>
+                                                      <InArgument x:TypeArguments="x:String">Resolución 9594 del año 2017</InArgument>
+                                                    </ui:AssignOperation.Value>
+                                                  </ui:AssignOperation>
+                                                </scg:List>
+                                              </ui:MultipleAssign.AssignOperations>
+                                            </ui:MultipleAssign>
+                                            <uix:NGetText DisplayName="Obtener texto 'Lugar de votación'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478.6666666666667,147.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_9" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" TextString="[mesa]" Version="V5">
+                                              <uix:NGetText.Target>
+                                                <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="62ee4c5d-ab94-47b3-8102-d338d070618b" ContentHash="1P8e9flk-kywELmPI09wUA" CvType="AnyWordGroup" DesignTimeRectangle="1148, 1170, 138, 24" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="3ffe81db-11ba-49aa-aab3-4d76942f544a" InformativeScreenshot="b1d8d4d835002028b77b37fd835b71fe.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/T0yNIKWlhk2H_EPXIvkODQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                                                  <uix:TargetAnchorable.Anchors>
+                                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                      <uix:Target CVScreenId="62ee4c5d-ab94-47b3-8102-d338d070618b" CvTextArea="1128, 1043, 268, 34" CvTextArgument="Lugar de votación" CvType="Text" DesignTimeRectangle="1129, 1037, 267, 41" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Lugar de votación' tag='SPAN' type='' class='md:text-[20px] font-bold' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Lugar de votación' /&gt;" Guid="061db749-56fe-4fbe-9874-c40fcfe8636c" SearchSteps="FuzzySelector, CV" />
+                                                    </scg:List>
+                                                  </uix:TargetAnchorable.Anchors>
+                                                </uix:TargetAnchorable>
+                                              </uix:NGetText.Target>
+                                            </uix:NGetText>
+                                            <ui:MultipleAssign DisplayName="Asignación múltiple" sap:VirtualizedContainerService.HintSize="478.6666666666667,460" sap2010:WorkflowViewState.IdRef="MultipleAssign_6">
+                                              <ui:MultipleAssign.AssignOperations>
+                                                <scg:List x:TypeArguments="ui:AssignOperation" Capacity="16">
+                                                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_39">
+                                                    <ui:AssignOperation.To>
+                                                      <OutArgument x:TypeArguments="sd3:DataRow">[Fila_Tabla]</OutArgument>
+                                                    </ui:AssignOperation.To>
+                                                    <ui:AssignOperation.Value>
+                                                      <InArgument x:TypeArguments="sd3:DataRow">[Tabla_Exportacion.NewRow]</InArgument>
+                                                    </ui:AssignOperation.Value>
+                                                  </ui:AssignOperation>
+                                                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_40">
+                                                    <ui:AssignOperation.To>
+                                                      <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Cedula")]</OutArgument>
+                                                    </ui:AssignOperation.To>
+                                                    <ui:AssignOperation.Value>
+                                                      <InArgument x:TypeArguments="x:Object">[Cedula]</InArgument>
+                                                    </ui:AssignOperation.Value>
+                                                  </ui:AssignOperation>
+                                                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_41">
+                                                    <ui:AssignOperation.To>
+                                                      <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Puesto")]</OutArgument>
+                                                    </ui:AssignOperation.To>
+                                                    <ui:AssignOperation.Value>
+                                                      <InArgument x:TypeArguments="x:String">[Puesto]</InArgument>
+                                                    </ui:AssignOperation.Value>
+                                                  </ui:AssignOperation>
+                                                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_42">
+                                                    <ui:AssignOperation.To>
+                                                      <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Mesa")]</OutArgument>
+                                                    </ui:AssignOperation.To>
+                                                    <ui:AssignOperation.Value>
+                                                      <InArgument x:TypeArguments="x:String">[Mesa]</InArgument>
+                                                    </ui:AssignOperation.Value>
+                                                  </ui:AssignOperation>
+                                                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_43">
+                                                    <ui:AssignOperation.To>
+                                                      <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Zona")]</OutArgument>
+                                                    </ui:AssignOperation.To>
+                                                    <ui:AssignOperation.Value>
+                                                      <InArgument x:TypeArguments="x:Object">[Zona]</InArgument>
+                                                    </ui:AssignOperation.Value>
+                                                  </ui:AssignOperation>
+                                                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_44">
+                                                    <ui:AssignOperation.To>
+                                                      <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Departamento")]</OutArgument>
+                                                    </ui:AssignOperation.To>
+                                                    <ui:AssignOperation.Value>
+                                                      <InArgument x:TypeArguments="x:Object">[Departamento]</InArgument>
+                                                    </ui:AssignOperation.Value>
+                                                  </ui:AssignOperation>
+                                                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_45">
+                                                    <ui:AssignOperation.To>
+                                                      <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Municipio")]</OutArgument>
+                                                    </ui:AssignOperation.To>
+                                                    <ui:AssignOperation.Value>
+                                                      <InArgument x:TypeArguments="x:Object">[Municipio]</InArgument>
+                                                    </ui:AssignOperation.Value>
+                                                  </ui:AssignOperation>
+                                                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_46">
+                                                    <ui:AssignOperation.To>
+                                                      <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Localidad")]</OutArgument>
+                                                    </ui:AssignOperation.To>
+                                                    <ui:AssignOperation.Value>
+                                                      <InArgument x:TypeArguments="x:Object">[Localidad]</InArgument>
+                                                    </ui:AssignOperation.Value>
+                                                  </ui:AssignOperation>
+                                                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_47">
+                                                    <ui:AssignOperation.To>
+                                                      <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Codigo_Localidad")]</OutArgument>
+                                                    </ui:AssignOperation.To>
+                                                    <ui:AssignOperation.Value>
+                                                      <InArgument x:TypeArguments="x:Object">[Codigo_Localidad]</InArgument>
+                                                    </ui:AssignOperation.Value>
+                                                  </ui:AssignOperation>
+                                                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_48">
+                                                    <ui:AssignOperation.To>
+                                                      <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Direccion")]</OutArgument>
+                                                    </ui:AssignOperation.To>
+                                                    <ui:AssignOperation.Value>
+                                                      <InArgument x:TypeArguments="x:String">[Direccion]</InArgument>
+                                                    </ui:AssignOperation.Value>
+                                                  </ui:AssignOperation>
+                                                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_49">
+                                                    <ui:AssignOperation.To>
+                                                      <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Fecha_Hora")]</OutArgument>
+                                                    </ui:AssignOperation.To>
+                                                    <ui:AssignOperation.Value>
+                                                      <InArgument x:TypeArguments="x:Object">[DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")]</InArgument>
+                                                    </ui:AssignOperation.Value>
+                                                  </ui:AssignOperation>
+                                                </scg:List>
+                                              </ui:MultipleAssign.AssignOperations>
+                                            </ui:MultipleAssign>
+                                            <ui:AddDataRow ArrayRow="{x:Null}" DataRow="[Fila_Tabla]" DataTable="[Tabla_Exportacion]" DisplayName="Añadir fila de datos" sap:VirtualizedContainerService.HintSize="478.6666666666667,227.33333333333334" sap2010:WorkflowViewState.IdRef="AddDataRow_3" />
+                                            <uga:WriteRangeConnections ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="Robots_Puestos de Votacion " BrowserItemId="https://docs.google.com/spreadsheets/d/1yPVRZ0a_RwoeODiB8aUdtr7zcGftK5baZLW-AKKMHOM/edit?usp=drivesdk" ConnectionId="12bb7e90-e733-4a9f-aae9-ae38f2fc31ca" DisplayName="Escribir rango" sap:VirtualizedContainerService.HintSize="478.6666666666667,408" sap2010:WorkflowViewState.IdRef="WriteRangeConnections_3" IncludeHeaders="False" ItemSelectionMode="Browse" Range="'Consulta_Robots'" RowPosition="0" Source="[Tabla_Exportacion]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False" WriteMode="Append">
+                                              <uga:WriteRangeConnections.FileIdBackup>
+                                                <usau:BackupSlot x:TypeArguments="ugade:EDriveItemMode" x:Name="__ReferenceID2" StoredValue="Browse">
+                                                  <usau:BackupSlot.BackupValues>
+                                                    <scg:Dictionary x:TypeArguments="ugade:EDriveItemMode, scg:List(x:Object)" />
+                                                  </usau:BackupSlot.BackupValues>
+                                                </usau:BackupSlot>
+                                              </uga:WriteRangeConnections.FileIdBackup>
+                                              <uga:WriteRangeConnections.Item>
+                                                <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID2}" ConnectionDescriptor="{x:Null}" ConnectionKey="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="https://docs.google.com/spreadsheets/d/1yPVRZ0a_RwoeODiB8aUdtr7zcGftK5baZLW-AKKMHOM/edit?usp=drivesdk" FriendlyName="Robots_Puestos de Votacion " FullPathHint="Robots_Puestos de Votacion " InputMode="Browse">
+                                                  <ugam:DriveItemArgument.DriveId>
+                                                    <InArgument x:TypeArguments="x:String" />
+                                                  </ugam:DriveItemArgument.DriveId>
+                                                  <ugam:DriveItemArgument.ParentIdFullPathHint>
+                                                    <InArgument x:TypeArguments="x:String">
+                                                      <Literal x:TypeArguments="x:String" Value="" />
+                                                    </InArgument>
+                                                  </ugam:DriveItemArgument.ParentIdFullPathHint>
+                                                </ugam:DriveItemArgument>
+                                              </uga:WriteRangeConnections.Item>
+                                              <uga:WriteRangeConnections.RangeWriteModeBackup>
+                                                <usau:BackupSlot x:TypeArguments="ugase:RangeWriteMode" StoredValue="Append">
+                                                  <usau:BackupSlot.BackupValues>
+                                                    <scg:List x:TypeArguments="x:Object" x:Key="Overwrite" Capacity="1">
+                                                      <x:String></x:String>
+                                                    </scg:List>
+                                                  </usau:BackupSlot.BackupValues>
+                                                </usau:BackupSlot>
+                                              </uga:WriteRangeConnections.RangeWriteModeBackup>
+                                            </uga:WriteRangeConnections>
+                                            <Assign DisplayName="Establecer valor de variable" sap:VirtualizedContainerService.HintSize="478.6666666666667,180.66666666666666" sap2010:WorkflowViewState.IdRef="Assign_8">
+                                              <Assign.To>
+                                                <OutArgument x:TypeArguments="x:Boolean">[Ciclo_Ingreso]</OutArgument>
+                                              </Assign.To>
+                                              <Assign.Value>
+                                                <InArgument x:TypeArguments="x:Boolean">[False]</InArgument>
+                                              </Assign.Value>
+                                            </Assign>
+                                            <ui:ClearDataTable DataTable="[Tabla_Exportacion]" DisplayName="Borrar tabla de datos" sap:VirtualizedContainerService.HintSize="478.6666666666667,118" sap2010:WorkflowViewState.IdRef="ClearDataTable_3" />
+                                            <uix:NGoToUrl DisplayName="Ir a URL - registraduria.gov.co" sap:VirtualizedContainerService.HintSize="478.6666666666667,118.66666666666667" sap2010:WorkflowViewState.IdRef="NGoToUrl_6" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" Url="https://eleccionescolombia.registraduria.gov.co/identificacion" Version="V5" />
+                                          </Sequence>
+                                        </uix:NCheckState.IfExists>
+                                        <uix:NCheckState.IfNotExists>
+                                          <Sequence DisplayName="No aparece el destino" sap:VirtualizedContainerService.HintSize="584.6666666666666,2769.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_49">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <Assign DisplayName="Establecer valor de variable" sap:VirtualizedContainerService.HintSize="550.6666666666666,176.66666666666666" sap2010:WorkflowViewState.IdRef="Assign_4">
+                                              <Assign.To>
+                                                <OutArgument x:TypeArguments="x:Int32">[Cantidad_Ciclo]</OutArgument>
+                                              </Assign.To>
+                                              <Assign.Value>
+                                                <InArgument x:TypeArguments="x:Int32">[Cantidad_Ciclo +1]</InArgument>
+                                              </Assign.Value>
+                                              <sap:WorkflowViewStateService.ViewState>
+                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                </scg:Dictionary>
+                                              </sap:WorkflowViewStateService.ViewState>
+                                            </Assign>
+                                            <If Condition="[Cantidad_Ciclo = 3]" sap:VirtualizedContainerService.HintSize="550.6666666666666,2532.6666666666665" sap2010:WorkflowViewState.IdRef="If_2">
+                                              <sap:WorkflowViewStateService.ViewState>
+                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                </scg:Dictionary>
+                                              </sap:WorkflowViewStateService.ViewState>
+                                              <If.Then>
+                                                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="548.6666666666666,235.33333333333334" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                                                  <sap:WorkflowViewStateService.ViewState>
+                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                    </scg:Dictionary>
+                                                  </sap:WorkflowViewStateService.ViewState>
+                                                  <Assign DisplayName="Establecer valor de variable" sap:VirtualizedContainerService.HintSize="514.6666666666666,171.33333333333334" sap2010:WorkflowViewState.IdRef="Assign_5">
+                                                    <Assign.To>
+                                                      <OutArgument x:TypeArguments="x:Boolean">[Ciclo_Ingreso]</OutArgument>
+                                                    </Assign.To>
+                                                    <Assign.Value>
+                                                      <InArgument x:TypeArguments="x:Boolean">[False]</InArgument>
+                                                    </Assign.Value>
+                                                  </Assign>
+                                                </Sequence>
+                                              </If.Then>
+                                              <If.Else>
+                                                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="548.6666666666666,2162.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                                                  <sap:WorkflowViewStateService.ViewState>
+                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                    </scg:Dictionary>
+                                                  </sap:WorkflowViewStateService.ViewState>
+                                                  <uix:NCheckState DisplayName="Comprobar estado de aplicación 'Ciudadano no encontrado…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="514.6666666666666,2098.6666666666665" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" Version="V5">
+                                                    <uix:NCheckState.IfExists>
+                                                      <Sequence DisplayName="Aparece el destino" sap:VirtualizedContainerService.HintSize="512.6666666666666,1576.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_42">
+                                                        <sap:WorkflowViewStateService.ViewState>
+                                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                          </scg:Dictionary>
+                                                        </sap:WorkflowViewStateService.ViewState>
+                                                        <ui:MultipleAssign DisplayName="Asignación múltiple" sap:VirtualizedContainerService.HintSize="478.6666666666667,460" sap2010:WorkflowViewState.IdRef="MultipleAssign_4">
+                                                          <ui:MultipleAssign.AssignOperations>
+                                                            <scg:List x:TypeArguments="ui:AssignOperation" Capacity="16">
+                                                              <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_25">
+                                                                <ui:AssignOperation.To>
+                                                                  <OutArgument x:TypeArguments="sd3:DataRow">[Fila_Tabla]</OutArgument>
+                                                                </ui:AssignOperation.To>
+                                                                <ui:AssignOperation.Value>
+                                                                  <InArgument x:TypeArguments="sd3:DataRow">[Tabla_Exportacion.NewRow]</InArgument>
+                                                                </ui:AssignOperation.Value>
+                                                              </ui:AssignOperation>
+                                                              <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_26">
+                                                                <ui:AssignOperation.To>
+                                                                  <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Cedula")]</OutArgument>
+                                                                </ui:AssignOperation.To>
+                                                                <ui:AssignOperation.Value>
+                                                                  <InArgument x:TypeArguments="x:Object">[Cedula]</InArgument>
+                                                                </ui:AssignOperation.Value>
+                                                              </ui:AssignOperation>
+                                                              <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_27">
+                                                                <ui:AssignOperation.To>
+                                                                  <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Puesto")]</OutArgument>
+                                                                </ui:AssignOperation.To>
+                                                                <ui:AssignOperation.Value>
+                                                                  <InArgument x:TypeArguments="x:Object">["No Se Encuentra Censo Electoral"]</InArgument>
+                                                                </ui:AssignOperation.Value>
+                                                              </ui:AssignOperation>
+                                                              <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_28">
+                                                                <ui:AssignOperation.To>
+                                                                  <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Mesa")]</OutArgument>
+                                                                </ui:AssignOperation.To>
+                                                                <ui:AssignOperation.Value>
+                                                                  <InArgument x:TypeArguments="x:Object">[""]</InArgument>
+                                                                </ui:AssignOperation.Value>
+                                                              </ui:AssignOperation>
+                                                              <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_29">
+                                                                <ui:AssignOperation.To>
+                                                                  <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Zona")]</OutArgument>
+                                                                </ui:AssignOperation.To>
+                                                                <ui:AssignOperation.Value>
+                                                                  <InArgument x:TypeArguments="x:Object">[""]</InArgument>
+                                                                </ui:AssignOperation.Value>
+                                                              </ui:AssignOperation>
+                                                              <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_30">
+                                                                <ui:AssignOperation.To>
+                                                                  <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Departamento")]</OutArgument>
+                                                                </ui:AssignOperation.To>
+                                                                <ui:AssignOperation.Value>
+                                                                  <InArgument x:TypeArguments="x:Object">[""]</InArgument>
+                                                                </ui:AssignOperation.Value>
+                                                              </ui:AssignOperation>
+                                                              <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_31">
+                                                                <ui:AssignOperation.To>
+                                                                  <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Municipio")]</OutArgument>
+                                                                </ui:AssignOperation.To>
+                                                                <ui:AssignOperation.Value>
+                                                                  <InArgument x:TypeArguments="x:Object">[""]</InArgument>
+                                                                </ui:AssignOperation.Value>
+                                                              </ui:AssignOperation>
+                                                              <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_32">
+                                                                <ui:AssignOperation.To>
+                                                                  <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Localidad")]</OutArgument>
+                                                                </ui:AssignOperation.To>
+                                                                <ui:AssignOperation.Value>
+                                                                  <InArgument x:TypeArguments="x:Object">[""]</InArgument>
+                                                                </ui:AssignOperation.Value>
+                                                              </ui:AssignOperation>
+                                                              <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_33">
+                                                                <ui:AssignOperation.To>
+                                                                  <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Codigo_Localidad")]</OutArgument>
+                                                                </ui:AssignOperation.To>
+                                                                <ui:AssignOperation.Value>
+                                                                  <InArgument x:TypeArguments="x:Object">[""]</InArgument>
+                                                                </ui:AssignOperation.Value>
+                                                              </ui:AssignOperation>
+                                                              <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_34">
+                                                                <ui:AssignOperation.To>
+                                                                  <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Direccion")]</OutArgument>
+                                                                </ui:AssignOperation.To>
+                                                                <ui:AssignOperation.Value>
+                                                                  <InArgument x:TypeArguments="x:Object">[""]</InArgument>
+                                                                </ui:AssignOperation.Value>
+                                                              </ui:AssignOperation>
+                                                              <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_35">
+                                                                <ui:AssignOperation.To>
+                                                                  <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Fecha_Hora")]</OutArgument>
+                                                                </ui:AssignOperation.To>
+                                                                <ui:AssignOperation.Value>
+                                                                  <InArgument x:TypeArguments="x:Object">[DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")]</InArgument>
+                                                                </ui:AssignOperation.Value>
+                                                              </ui:AssignOperation>
+                                                            </scg:List>
+                                                          </ui:MultipleAssign.AssignOperations>
+                                                        </ui:MultipleAssign>
+                                                        <ui:AddDataRow ArrayRow="{x:Null}" DataRow="[Fila_Tabla]" DataTable="[Tabla_Exportacion]" DisplayName="Añadir fila de datos" sap:VirtualizedContainerService.HintSize="478.6666666666667,227.33333333333334" sap2010:WorkflowViewState.IdRef="AddDataRow_2" />
+                                                        <uga:WriteRangeConnections ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="Robots_Puestos de Votacion " BrowserItemId="https://docs.google.com/spreadsheets/d/1yPVRZ0a_RwoeODiB8aUdtr7zcGftK5baZLW-AKKMHOM/edit?usp=drivesdk" ConnectionId="12bb7e90-e733-4a9f-aae9-ae38f2fc31ca" DisplayName="Escribir rango" sap:VirtualizedContainerService.HintSize="478.6666666666667,408" sap2010:WorkflowViewState.IdRef="WriteRangeConnections_2" IncludeHeaders="False" ItemSelectionMode="Browse" Range="'Consulta_Robots'" RowPosition="0" Source="[Tabla_Exportacion]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False" WriteMode="Append">
+                                                          <uga:WriteRangeConnections.FileIdBackup>
+                                                            <usau:BackupSlot x:TypeArguments="ugade:EDriveItemMode" x:Name="__ReferenceID3" StoredValue="Browse">
+                                                              <usau:BackupSlot.BackupValues>
+                                                                <scg:Dictionary x:TypeArguments="ugade:EDriveItemMode, scg:List(x:Object)" />
+                                                              </usau:BackupSlot.BackupValues>
+                                                            </usau:BackupSlot>
+                                                          </uga:WriteRangeConnections.FileIdBackup>
+                                                          <uga:WriteRangeConnections.Item>
+                                                            <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID3}" ConnectionDescriptor="{x:Null}" ConnectionKey="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="https://docs.google.com/spreadsheets/d/1yPVRZ0a_RwoeODiB8aUdtr7zcGftK5baZLW-AKKMHOM/edit?usp=drivesdk" FriendlyName="Robots_Puestos de Votacion " FullPathHint="Robots_Puestos de Votacion " InputMode="Browse">
+                                                              <ugam:DriveItemArgument.DriveId>
+                                                                <InArgument x:TypeArguments="x:String" />
+                                                              </ugam:DriveItemArgument.DriveId>
+                                                              <ugam:DriveItemArgument.ParentIdFullPathHint>
+                                                                <InArgument x:TypeArguments="x:String">
+                                                                  <Literal x:TypeArguments="x:String" Value="" />
+                                                                </InArgument>
+                                                              </ugam:DriveItemArgument.ParentIdFullPathHint>
+                                                            </ugam:DriveItemArgument>
+                                                          </uga:WriteRangeConnections.Item>
+                                                          <uga:WriteRangeConnections.RangeWriteModeBackup>
+                                                            <usau:BackupSlot x:TypeArguments="ugase:RangeWriteMode" StoredValue="Append">
+                                                              <usau:BackupSlot.BackupValues>
+                                                                <scg:List x:TypeArguments="x:Object" x:Key="Overwrite" Capacity="1">
+                                                                  <x:String></x:String>
+                                                                </scg:List>
+                                                              </usau:BackupSlot.BackupValues>
+                                                            </usau:BackupSlot>
+                                                          </uga:WriteRangeConnections.RangeWriteModeBackup>
+                                                        </uga:WriteRangeConnections>
+                                                        <Assign DisplayName="Establecer valor de variable" sap:VirtualizedContainerService.HintSize="478.6666666666667,180.66666666666666" sap2010:WorkflowViewState.IdRef="Assign_6">
+                                                          <Assign.To>
+                                                            <OutArgument x:TypeArguments="x:Boolean">[Ciclo_Ingreso]</OutArgument>
+                                                          </Assign.To>
+                                                          <Assign.Value>
+                                                            <InArgument x:TypeArguments="x:Boolean">[False]</InArgument>
+                                                          </Assign.Value>
+                                                        </Assign>
+                                                        <ui:ClearDataTable DataTable="[Tabla_Exportacion]" DisplayName="Borrar tabla de datos" sap:VirtualizedContainerService.HintSize="478.6666666666667,118" sap2010:WorkflowViewState.IdRef="ClearDataTable_2" />
+                                                        <uix:NGoToUrl DisplayName="Ir a URL - registraduria.gov.co" sap:VirtualizedContainerService.HintSize="478.6666666666667,118.66666666666667" sap2010:WorkflowViewState.IdRef="NGoToUrl_4" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" Url="https://eleccionescolombia.registraduria.gov.co/identificacion" Version="V5" />
+                                                      </Sequence>
+                                                    </uix:NCheckState.IfExists>
+                                                    <uix:NCheckState.IfNotExists>
+                                                      <Sequence DisplayName="No aparece el destino" sap:VirtualizedContainerService.HintSize="512.6666666666666,178.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_43">
+                                                        <sap:WorkflowViewStateService.ViewState>
+                                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                          </scg:Dictionary>
+                                                        </sap:WorkflowViewStateService.ViewState>
+                                                        <uix:NGoToUrl DisplayName="Ir a URL - registraduria.gov.co" sap:VirtualizedContainerService.HintSize="416,118.66666666666667" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" Url="https://eleccionescolombia.registraduria.gov.co/identificacion" Version="V5" />
+                                                      </Sequence>
+                                                    </uix:NCheckState.IfNotExists>
+                                                    <uix:NCheckState.Target>
+                                                      <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/identificacion" CVScreenId="b6050849-f01d-4a28-b44f-cd335df9bb8c" ContentHash="eiUIdsMi0EuavmuF3OmKmA" DesignTimeRectangle="1593, 1060, 654, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;p' isleaf='1' tag='P' /&gt;" Guid="c58b8c9b-dbad-4637-98eb-f6744072fa22" InformativeScreenshot="5b92c97cbbdb516f4b7c0db8b902ff8d.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/5WT1CBuBRky_H6qzRpB4Pg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+                                                        <uix:TargetAnchorable.Anchors>
+                                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                            <uix:Target CVScreenId="b6050849-f01d-4a28-b44f-cd335df9bb8c" DesignTimeRectangle="1818, 1138, 203, 78" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Consultar' type='' tag='BUTTON' class='bg-general-button font-montserrat font-bold px-6 py-3 rounded-lg font-medium text-lg disabled:opacity-60 disabled:cursor-not-allowed text-primary' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Consultar' /&gt;" Guid="cbaeb638-67aa-4dae-b43a-5659a4556907" SearchSteps="FuzzySelector" />
+                                                          </scg:List>
+                                                        </uix:TargetAnchorable.Anchors>
+                                                      </uix:TargetAnchorable>
+                                                    </uix:NCheckState.Target>
+                                                  </uix:NCheckState>
+                                                </Sequence>
+                                              </If.Else>
+                                            </If>
+                                          </Sequence>
+                                        </uix:NCheckState.IfNotExists>
+                                        <uix:NCheckState.Target>
+                                          <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="62ee4c5d-ab94-47b3-8102-d338d070618b" ContentHash="UGD4iOnrCEOl6xUw4JaUXA" CvTextArea="1187, 1208, 266, 30" CvTextArgument="Cancelada por Muerte" CvType="Text" DesignTimeRectangle="1187, 1208, 266, 31" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="8e5518b3-6dca-48e1-a785-e50fd87fe87e" InformativeScreenshot="fc0ce3a19aa35ab8d076abc825a3bb33.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/YMN7UDvYZ0KI_gEKYZf2uw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                                            <uix:TargetAnchorable.Anchors>
+                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                <uix:Target CVScreenId="62ee4c5d-ab94-47b3-8102-d338d070618b" CvTextArea="1059, 1208, 123, 24" CvTextArgument="Novedad:" CvType="Text" DesignTimeRectangle="1062, 1204, 127, 34" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='STRONG' class='' aaname='Novedad: ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Novedad:' /&gt;" Guid="e2a074d7-c179-46f3-afa8-9f678a7d6cc1" SearchSteps="FuzzySelector, CV" />
+                                              </scg:List>
+                                            </uix:TargetAnchorable.Anchors>
+                                          </uix:TargetAnchorable>
+                                        </uix:NCheckState.Target>
+                                      </uix:NCheckState>
+                                    </Sequence>
+                                  </uix:NCheckState.IfNotExists>
+                                  <uix:NCheckState.Target>
+                                    <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="1b2a86d6-a291-4948-83da-312c3da65c97" ContentHash="YM0OAWbc-0iOjDFnrceQbw" CvTextArea="1779, 905, 279, 22" CvTextArgument="Documento de identidad" CvType="Text" DesignTimeRectangle="1780, 899, 279, 36" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='font-normal' tag='H2' /&gt;" Guid="ed6df0a1-5b45-4804-ba91-dd5ff2f24f07" InformativeScreenshot="81d277f73ce9ce489dc331aabb86dec0.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/EAD_S4um7Eu4xPRreF0pCQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                                      <uix:TargetAnchorable.Anchors>
+                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                          <uix:Target CVScreenId="1b2a86d6-a291-4948-83da-312c3da65c97" DesignTimeRectangle="1790, 947, 259, 58" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='C.C. 52440635' tag='SPAN' type='' class='font-semibold text-[26px]' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='C.C. 52440635' /&gt;" Guid="7d341023-f1be-4e03-be23-008d7a0efa81" SearchSteps="FuzzySelector" />
+                                        </scg:List>
+                                      </uix:TargetAnchorable.Anchors>
+                                    </uix:TargetAnchorable>
+                                  </uix:NCheckState.Target>
+                                </uix:NCheckState>
+                              </Sequence>
+                            </uix:NCheckState.IfExists>
+                            <uix:NCheckState.IfNotExists>
+                              <Sequence DisplayName="No aparece el destino" sap:VirtualizedContainerService.HintSize="656.6666666666666,797.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <Assign DisplayName="Establecer valor de variable" sap:VirtualizedContainerService.HintSize="452,180.66666666666666" sap2010:WorkflowViewState.IdRef="Assign_2">
+                                  <Assign.To>
+                                    <OutArgument x:TypeArguments="x:Int32">[Cantidad_Ciclo]</OutArgument>
+                                  </Assign.To>
+                                  <Assign.Value>
+                                    <InArgument x:TypeArguments="x:Int32">[Cantidad_Ciclo +1]</InArgument>
+                                  </Assign.Value>
+                                </Assign>
+                                <If Condition="[Cantidad_Ciclo = 3]" sap:VirtualizedContainerService.HintSize="452,552.6666666666666" sap2010:WorkflowViewState.IdRef="If_1">
+                                  <If.Then>
+                                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,235.33333333333334" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <Assign DisplayName="Establecer valor de variable" sap:VirtualizedContainerService.HintSize="416,171.33333333333334" sap2010:WorkflowViewState.IdRef="Assign_3">
+                                        <Assign.To>
+                                          <OutArgument x:TypeArguments="x:Boolean">[Ciclo_Ingreso]</OutArgument>
+                                        </Assign.To>
+                                        <Assign.Value>
+                                          <InArgument x:TypeArguments="x:Boolean">[False]</InArgument>
+                                        </Assign.Value>
+                                      </Assign>
+                                    </Sequence>
+                                  </If.Then>
+                                  <If.Else>
+                                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,182.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <uix:NGoToUrl DisplayName="Ir a URL - registraduria.gov.co" sap:VirtualizedContainerService.HintSize="416,118.66666666666667" sap2010:WorkflowViewState.IdRef="NGoToUrl_2" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" Url="https://eleccionescolombia.registraduria.gov.co/identificacion" Version="V5" />
+                                    </Sequence>
+                                  </If.Else>
+                                </If>
+                              </Sequence>
+                            </uix:NCheckState.IfNotExists>
+                            <uix:NCheckState.Target>
+                              <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/identificacion" CVScreenId="6cf55b98-b386-4203-adf7-5bd301121da2" ContentHash="VAEO1IvOk0KYcCvn4plkSw" CvTextArea="1760, 1511, 72, 22" CvTextArgument="Solved" CvType="Text" DesignTimeRectangle="1762, 1680, 69, 28" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='status' tag='A' /&gt;" Guid="b0be0186-21b6-4611-aa00-1701b0e367a4" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEkAAAAgCAYAAABeiFVOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAM4SURBVGhD7ZjBayIxFMb7bwp6EAS7glREUFoKRZGCoLAtHlpQehKKvUjBrZdKqSB0QfCwFcRT8dSLBfE8yxd4w5tnJpPa3WVb8oMwzsvLvOSb5CXjnueIZE8aHNs4kSxwIlngRLLAiWSBE8mCfy7SwcGBV6lUpPm/YDKZeLFYTF05WpE6nY6XSqVUA1ybzaZ02ZkvIVIikVCOshSLRem6E59eJAwATv1+n5tVo+FwGLDtyqcXCQ6NRoOb/jhfQqTr62tusuLH3Z33bX9ftccV92HoRFosFtoZzGm1Wl48Hpdmxa/nZz8+cihyahS8Da6473a7diIVCgVuioQSPAKVy+VAZ3XoRAKZTMYYO5lMamc5Hyji53I5dQ9B5/O5dFeUSiXf5/DwUBX8hi1SpOPjY+VUq9W4ORQMGA9fr9eyStlRLwkTqdfrqdg6ptOpqttsNgE7RA17GajTzbx6va6edXNzI6tUm0iRAL0ZlMuLC1ntMx6Plc9oNJJVCthRjwFywkQCGNTV1ZU0eycnJ1uzbDAYhIpK4Hnfz878+7e3N9Wm3W4H/AirnERggPwooJvm6LjuTXHQlncSmERCHCwrCZ6Dl8LBkSTqWIL6fD7v36MvJmHfJRKBNU1iyTeJweqWEwcDlgMxiUQJHFcCyzBMOJvC+xjV551EIk5PT1Xj+/t73xYVEOh8TCIBJPBqtRq41y1B9Ad1P5+evNlsFlpeX18DbUyxPyQSkAF0AkiwHI+OjgK2KJEwc2gZr1YrFVeH7I8NeK6c2ZwPiyS36L+RkwhK4JjBiKMjm8166XRamo0gP+mWLvFhkdAYnSZod+P5g4MDna4eIoUNnEACp5wi2xMQEfVy9zQR1cZKpPPzc+/29pab1EmUkvfLy0ugDmcU3TlluVyq2SCTPcDyi5qBOA8hXtRyRmw8C1u7LfBHkWMBJKJRJDSmNyjL4+Mjd/UhAXHStTlxY8ekZ5rOYRBYbvs6+F86mKE4EFOfdAkf8Wmc8IP/u07cAP8d8cA230H45uKfJ6ZvNwI7GN/FJLKjJvi3o+3/Xzh506yifjw8PNiJ5NjGiWSBE8kCJ5IFTiQLnEgWOJEs+A23ICwycQlKQQAAAABJRU5ErkJggg==" InformativeScreenshot="72d72d1413ac1ce41f354692a859f8e6.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/tpVRfZ5UVEOvLgAg32UIEQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="Selector, Image, CV" Version="V6" WaitForReadyArgument="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target DesignTimeRectangle="1668, 1767, 503, 72" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='P' class='font-montserrat text-xs text-center text-muted' aaname='Cualquier inquietud o reclamación que tenga sobre su lugar de votación, la puede remitir al correo: ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Cualquier inquietud o reclamación que tenga sobre su lugar de votación, la puede remitir al correo: avotar@registraduria.gov.co' /&gt;" Guid="38400070-8788-4e48-8233-7bd94b2f4b07" SearchSteps="FuzzySelector" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NCheckState.Target>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </uix:NCheckState>
+                        </Sequence>
+                      </ui:InterruptibleDoWhile.Body>
+                      <ui:InterruptibleDoWhile.Condition>
+                        <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="Ciclo_Ingreso = True" />
+                      </ui:InterruptibleDoWhile.Condition>
+                    </ui:InterruptibleDoWhile>
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.OCREngine>
+                <ActivityFunc x:TypeArguments="sd1:Image, scg:IEnumerable(scg:KeyValuePair(sd2:Rectangle, x:String))">
+                  <ActivityFunc.Argument>
+                    <DelegateInArgument x:TypeArguments="sd1:Image" Name="Image" />
+                  </ActivityFunc.Argument>
+                </ActivityFunc>
+              </uix:NApplicationCard.OCREngine>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="-11, -11, 3862, 2110" BrowserType="Edge" ContentHash="kkFCTgywtkOXIcpHbihtlw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAR2SURBVFhH7ZZ/TBtVHMAf49bpNhcd7W20T8aP45cweCxO3dhoD2GOlpAxlde6GaPOxBCVDI3RGHQx2ZzRyWhR/3Fi1G1qotviNFnMlqiLGWrmK5gIAzXo8WOLi3WFDRLar3lwQHl3jVBJ/Mdv8klJ29znc+9dHkXo/zEZYJhDgOH7geENwHAGMGwFhpcDw4v1z8XvJ8W+969Gv+BeYBiA4T+B4T5g+Adg+AwwfAIYPgIMHwKGAzpvAsN1CxKgyy3A8HE9YC6MAcP3LGSADRhmJqJ4dAHDaQsZcAswPGQiisdRYFhayIBKYHjERBSPxxdEzkcP2AkMR01EZvwFDG+CoEO8VGKjBzSaiIwEHdB3puBqqfeFd1OcrY2y6qey6vfEUCur/jxZ9Yua+KMH7DfIzOiww6nDTsCVzSCrfk5EVv2jOmOy6g/Jqr8qkYA3DDIzOhzwevN2sLoCUwEi52XVLycS8L5BFofdz+6Clc5WUTxFgMvnHKDLOfykM8hErn2XDnWP7o4XwLeBPwOiJv7ocn7W//MpGHTAH2dzwLWjCaxO0y3oklV/WiIBS4DhkwahSNABv54uhOLavfGegfdk1S8lErAIGP7QIBTpcAD79FbI9bwMNmNAxFoeeGhe8qmx25J5xGGDUKTDDl99VArpdx0Am3D32Nl8+cGC+gpAS5dpkrJEk5TFoifu6KvQZhCKGM+ACVLKA1BDnhrvseT39kvKl5qkfKZJyjZNUkSV+egBLQahSKcdjrVVwirh7q1qAF7M8MJAchZoksIZ0SRly3wD9hiEIp12+PjtLbPkfCvSy16F4ykuGJwJ+EmTFMd8Ax4zCEV4wKHZAdbyAJStb4LO69dCvzQd8IEmKdJ8A/jPq4hBKgSceKcCVpe3xOx/K9TnPQK/T4qnaJiznI8eoALDYYM0lg47fHG0DG6ufG06INV1EN5KdcNgcuaUPKRJyqZEAvgvokGDVAg498kdkFX1CthcfP8DUFi6D86uWB/7AJ7XJMWWSMAqYPhHgzSWoAO6TxVDQc1LEwcRX/5t5En42ZIH/TPL36ZJyqL5BXSlIuhOvQ6C+HODVAi49HUubPY9P3EU8wdwT6Zv+u77JSV6MTlrV5+ULSpMhlBOGiK0HhH6BCqmDaePFLRD0EQcw7Xv08FXP/nfML3sAByzumAoORMGJAUuWHJGfWvu3IdKfD5E6A6dKkTo0gmfIF+GCG1DhAIi9CIq8l5ofGbzwPC3a8bD7TNcOZcRjSXcnhF9+rkHInLZwejG25oi3ywvGe+xZI/3WnIiJ28ovrJy7d09iNBfEKFDiNCrOvsRoStmIghNQoQ2IEJHEaFRROgAKqbdq521vzm9W0OxuLzVw7Go3urh3K3e8I3rHg6nFe0M357jCW3Idoc2ZrtD+Xk1l5II5QG9iNA+ROhlROgYInQEEdqCCL1pMoJQCyK0Ql8ivlzbEaHVqMhbjfLv88zG5zZQSN2I3OtGpM6N1vk805T4PBPXmYT/zXHrr3wrbLO34j+avwGtIFgN1rMNwAAAAABJRU5ErkJggg==" InformativeScreenshot="9374b2d4f81cb5840b6ac3332bcd00dc.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/6UIuDjv2OkaOvkfpRRQQfQ" Selector="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" Url="https://eleccionescolombia.registraduria.gov.co/identificacion" Version="V2">
+                  <uix:TargetApp.Arguments>
+                    <InArgument x:TypeArguments="x:String" />
+                  </uix:TargetApp.Arguments>
+                  <uix:TargetApp.WorkingDirectory>
+                    <InArgument x:TypeArguments="x:String" />
+                  </uix:TargetApp.WorkingDirectory>
+                </uix:TargetApp>
+              </uix:NApplicationCard.TargetApp>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NApplicationCard>
+          </Sequence>
+        </ui:InterruptibleWhile.Body>
+        <ui:InterruptibleWhile.Condition>
+          <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="Ciclo_Infinito =True" />
+        </ui:InterruptibleWhile.Condition>
+      </ui:InterruptibleWhile>
+    </Sequence>
+  </Sequence>
+</Activity>

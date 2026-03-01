@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="owvJsKjxqE6_Ovgx1fuUNA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="693cb8c8-2c21-4fc5-8c5e-63483e42f6b5" DesignTimeRectangle="846, 625, 229, 52" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='' class='bg-general-button font-montserrat font-bold px-6 py-3 rounded-lg font-medium text-lg disabled:opacity-60 disabled:cursor-not-allowed text-primary' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="d44295bc-d36a-4f3a-8bb7-81d625488a0e" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="693cb8c8-2c21-4fc5-8c5e-63483e42f6b5" DesignTimeRectangle="785, 853, 351, 125" ElementType="Icon" FullSelectorArgument="&lt;webctrl aaname='logo' tag='IMG' /&gt;" Guid="57eb012a-7bf1-4ca9-bffc-a034329dabdd" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="dc117d7ee3939cda8349e3aaa8eb7cdf.jpg" xmlns="">0n99CIvHFvkipnclXr5jr6w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

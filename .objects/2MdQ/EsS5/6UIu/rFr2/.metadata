@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Código localidad",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "rFr2roNdGkqehLTlcrdAdQ",
+  "Reference": "Bfm9rTQjp0yuZZWkJHr_zw/rFr2roNdGkqehLTlcrdAdQ",
+  "ParentRef": "Bfm9rTQjp0yuZZWkJHr_zw/6UIuDjv2OkaOvkfpRRQQfQ",
+  "Created": "2026-02-28T18:36:44.5759327Z",
+  "Updated": "2026-02-28T18:36:44.5759327Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

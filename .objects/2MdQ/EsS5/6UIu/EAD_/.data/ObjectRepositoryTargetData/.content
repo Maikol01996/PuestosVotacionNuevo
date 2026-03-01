@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YM0OAWbc-0iOjDFnrceQbw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="1b2a86d6-a291-4948-83da-312c3da65c97" CvTextArea="1779, 905, 279, 22" CvTextArgument="Documento de identidad" CvType="Text" DesignTimeRectangle="1780, 899, 279, 36" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='font-normal' tag='H2' /&gt;" Guid="ed6df0a1-5b45-4804-ba91-dd5ff2f24f07" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1b2a86d6-a291-4948-83da-312c3da65c97" DesignTimeRectangle="1790, 947, 259, 58" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='C.C. 52440635' tag='SPAN' type='' class='font-semibold text-[26px]' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='C.C. 52440635' /&gt;" Guid="7d341023-f1be-4e03-be23-008d7a0efa81" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="81d277f73ce9ce489dc331aabb86dec0.jpg" xmlns="">08jXRgpQEUEWp6rIr1tKuHg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

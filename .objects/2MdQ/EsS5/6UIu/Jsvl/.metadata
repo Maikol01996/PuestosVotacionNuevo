@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Consultar ubicación",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "JsvlwJUpTUWVHmvNS4y1EQ",
+  "Reference": "Bfm9rTQjp0yuZZWkJHr_zw/JsvlwJUpTUWVHmvNS4y1EQ",
+  "ParentRef": "Bfm9rTQjp0yuZZWkJHr_zw/6UIuDjv2OkaOvkfpRRQQfQ",
+  "Created": "2026-02-28T18:42:02.7835017Z",
+  "Updated": "2026-02-28T18:42:02.7835017Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

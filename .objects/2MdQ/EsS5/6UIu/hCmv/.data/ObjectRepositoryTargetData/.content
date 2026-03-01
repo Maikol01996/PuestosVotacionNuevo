@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="G9GdKcOYy0ygeGvz2XoLMQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="eleccionescolombia.registraduria.gov.co/identificacion" CVScreenId="0fe0dc16-f07a-45d9-95f6-f77698084ae7" CvTextArea="1851, 1095, 135, 24" CvTextArgument="Consultar" CvType="Text" DesignTimeRectangle="1818, 1070, 203, 78" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Consultar' tag='BUTTON' /&gt;" Guid="db10a3fd-677a-4b93-8495-bf1947ffa249" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0fe0dc16-f07a-45d9-95f6-f77698084ae7" CvTextArea="1667, 995, 377, 21" CvTextArgument="Ingresa tu número de documento sin puntos" CvType="Text" DesignTimeRectangle="1668, 992, 503, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='SPAN' class='block text-xs mt-3 text-muted' aaname='Ingresa tu número de documento sin puntos' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Ingresa tu número de documento sin puntos' /&gt;" Guid="762ababf-0592-4d0f-9991-60321dbf03d6" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="084dad16b43c3875806c97be2885aec2.jpg" xmlns="">0Ww1xSH-r-EC9fYaTJC0u_w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

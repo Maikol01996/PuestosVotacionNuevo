@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Conoce tu lugar de vota…",
+  "Type": "Element",
+  "Id": "e1ZW66H-K0eq9yAXrFfLMg",
+  "Reference": "Bfm9rTQjp0yuZZWkJHr_zw/e1ZW66H-K0eq9yAXrFfLMg",
+  "ParentRef": "Bfm9rTQjp0yuZZWkJHr_zw/6UIuDjv2OkaOvkfpRRQQfQ",
+  "Created": "2026-02-28T18:50:16.2999961Z",
+  "Updated": "2026-02-28T18:50:16.2999961Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

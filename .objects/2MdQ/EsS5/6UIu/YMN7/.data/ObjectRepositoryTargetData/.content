@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="UGD4iOnrCEOl6xUw4JaUXA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="62ee4c5d-ab94-47b3-8102-d338d070618b" CvTextArea="1187, 1208, 266, 30" CvTextArgument="Cancelada por Muerte" CvType="Text" DesignTimeRectangle="1187, 1208, 266, 31" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="8e5518b3-6dca-48e1-a785-e50fd87fe87e" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="62ee4c5d-ab94-47b3-8102-d338d070618b" CvTextArea="1059, 1208, 123, 24" CvTextArgument="Novedad:" CvType="Text" DesignTimeRectangle="1062, 1204, 127, 34" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='STRONG' class='' aaname='Novedad: ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Novedad:' /&gt;" Guid="e2a074d7-c179-46f3-afa8-9f678a7d6cc1" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fc0ce3a19aa35ab8d076abc825a3bb33.jpg" xmlns="">0ba2-6cPlxEa9ARYivTBZMA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Elecciones Colombia",
+  "Type": "Screen",
+  "Id": "6UIuDjv2OkaOvkfpRRQQfQ",
+  "Reference": "Bfm9rTQjp0yuZZWkJHr_zw/6UIuDjv2OkaOvkfpRRQQfQ",
+  "ParentRef": "Bfm9rTQjp0yuZZWkJHr_zw/EsS5RNvI6UeqvD5VZT-klg",
+  "Created": "2026-02-28T18:10:46.1757301Z",
+  "Updated": "2026-02-28T18:10:46.1757301Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Zona",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "nSBA8Y8UFUi51q0aS7cBcg",
+  "Reference": "Bfm9rTQjp0yuZZWkJHr_zw/nSBA8Y8UFUi51q0aS7cBcg",
+  "ParentRef": "Bfm9rTQjp0yuZZWkJHr_zw/6UIuDjv2OkaOvkfpRRQQfQ",
+  "Created": "2026-02-28T18:32:04.849989Z",
+  "Updated": "2026-02-28T18:32:04.849989Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

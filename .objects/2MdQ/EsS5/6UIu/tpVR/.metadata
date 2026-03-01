@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Cualquier inquietud o r…",
+  "Type": "Element",
+  "Id": "tpVRfZ5UVEOvLgAg32UIEQ",
+  "Reference": "Bfm9rTQjp0yuZZWkJHr_zw/tpVRfZ5UVEOvLgAg32UIEQ",
+  "ParentRef": "Bfm9rTQjp0yuZZWkJHr_zw/6UIuDjv2OkaOvkfpRRQQfQ",
+  "Created": "2026-02-28T18:22:51.5587989Z",
+  "Updated": "2026-02-28T18:22:51.5587989Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

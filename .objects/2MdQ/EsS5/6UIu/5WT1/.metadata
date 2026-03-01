@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Ciudadano no encontrado…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "5WT1CBuBRky_H6qzRpB4Pg",
+  "Reference": "Bfm9rTQjp0yuZZWkJHr_zw/5WT1CBuBRky_H6qzRpB4Pg",
+  "ParentRef": "Bfm9rTQjp0yuZZWkJHr_zw/6UIuDjv2OkaOvkfpRRQQfQ",
+  "Created": "2026-02-28T20:40:05.402791Z",
+  "Updated": "2026-02-28T20:40:05.402791Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Ingresa tu cédula de ci…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "dP0HVlwL9UiPMfZgs_Nowg",
+  "Reference": "Bfm9rTQjp0yuZZWkJHr_zw/dP0HVlwL9UiPMfZgs_Nowg",
+  "ParentRef": "Bfm9rTQjp0yuZZWkJHr_zw/6UIuDjv2OkaOvkfpRRQQfQ",
+  "Created": "2026-02-28T18:21:02.0963242Z",
+  "Updated": "2026-02-28T18:21:02.0963242Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

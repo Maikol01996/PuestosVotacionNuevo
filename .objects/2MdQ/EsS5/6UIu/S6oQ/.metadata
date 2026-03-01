@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Puesto",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "S6oQ8CjFA0ObNxYEeAl8LQ",
+  "Reference": "Bfm9rTQjp0yuZZWkJHr_zw/S6oQ8CjFA0ObNxYEeAl8LQ",
+  "ParentRef": "Bfm9rTQjp0yuZZWkJHr_zw/6UIuDjv2OkaOvkfpRRQQfQ",
+  "Created": "2026-02-28T18:30:21.6804933Z",
+  "Updated": "2026-02-28T18:30:21.6804933Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

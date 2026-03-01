@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wtU0Eb-OpEaQ3iV3IQQX_w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="eleccionescolombia.registraduria.gov.co/identificacion" DesignTimeRectangle="1668, 899, 503, 75" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='document' tag='INPUT' type='number' class='border border-[#D1D5DB] w-full h-[50px] rounded-lg bg-white px-4 outline-none' placeholder='Ej: 12345678' aaname='Ingresa tu cédula de ciudadanía' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="8ba68630-5bec-4c5e-8737-5d81a9f5cde6" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="51179adb-9f1a-4154-a99c-a1fccc510c4e" CvTextArea="1668, 854, 415, 29" CvTextArgument="Ingresa tu cédula de ciudadanía" CvType="Text" DesignTimeRectangle="1668, 849, 503, 38" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='font-montserrat text-[17px] font-medium mb-2 block' aaname='Ingresa tu cédula de ciudadanía' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Ingresa tu cédula de ciudadanía' /&gt;" Guid="cb83f38f-dcc1-4603-9299-b31169bb3cc5" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2b4e8af1734214af05c3ca3320216ee4.jpg" xmlns="">05tZhc7tFIUeze3oegVpuhQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge Elecciones Colombia",
+  "Type": "App",
+  "Id": "2MdQBm-VEECXmiY4pVkTEw",
+  "Reference": "Bfm9rTQjp0yuZZWkJHr_zw/2MdQBm-VEECXmiY4pVkTEw",
+  "Created": "2026-02-28T18:10:45.6194136Z",
+  "Updated": "2026-02-28T18:10:45.6194136Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

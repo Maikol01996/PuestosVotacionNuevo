@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="eiUIdsMi0EuavmuF3OmKmA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="eleccionescolombia.registraduria.gov.co/identificacion" CVScreenId="b6050849-f01d-4a28-b44f-cd335df9bb8c" DesignTimeRectangle="1593, 1060, 654, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;p' isleaf='1' tag='P' /&gt;" Guid="c58b8c9b-dbad-4637-98eb-f6744072fa22" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b6050849-f01d-4a28-b44f-cd335df9bb8c" DesignTimeRectangle="1818, 1138, 203, 78" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Consultar' type='' tag='BUTTON' class='bg-general-button font-montserrat font-bold px-6 py-3 rounded-lg font-medium text-lg disabled:opacity-60 disabled:cursor-not-allowed text-primary' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Consultar' /&gt;" Guid="cbaeb638-67aa-4dae-b43a-5659a4556907" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5b92c97cbbdb516f4b7c0db8b902ff8d.jpg" xmlns="">0Qo0BZOEEzk26LTKHaSkVyg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

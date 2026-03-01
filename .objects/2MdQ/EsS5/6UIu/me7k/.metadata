@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Mesa",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "me7kUuEKcUubk-8YckNcDQ",
+  "Reference": "Bfm9rTQjp0yuZZWkJHr_zw/me7kUuEKcUubk-8YckNcDQ",
+  "ParentRef": "Bfm9rTQjp0yuZZWkJHr_zw/6UIuDjv2OkaOvkfpRRQQfQ",
+  "Created": "2026-02-28T18:31:04.9977271Z",
+  "Updated": "2026-02-28T18:31:04.9977271Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
