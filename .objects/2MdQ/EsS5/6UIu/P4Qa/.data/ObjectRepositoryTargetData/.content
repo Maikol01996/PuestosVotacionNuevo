@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="naTM1mNZ5kimeH9cZKYUzw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" DesignTimeRectangle="1841, 1397, 180, 78" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Aceptar' tag='BUTTON' /&gt;" Guid="7c1783de-43eb-4de0-baf8-fe76124586ce" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="25917eade3ef7bf29620c148218221a8.jpg" xmlns="">0PgrT2plNG06tdm2kAxvd8g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

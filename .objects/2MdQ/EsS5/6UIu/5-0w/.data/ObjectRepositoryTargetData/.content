@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="P9X8XmG2FEeTHKKTDaIlCQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="dcb0a3c6-3982-448a-b8b1-3a46b3775210" CvTextArea="1214, 1398, 351, 26" CvTextArgument="Resolución 0001 del año 2021" CvType="Text" DesignTimeRectangle="1212, 1398, 353, 26" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="7e9a051b-7385-4826-94d2-a813cb03701c" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="dcb0a3c6-3982-448a-b8b1-3a46b3775210" CvTextArea="1061, 1398, 147, 25" CvTextArgument="Resolución:" CvType="Text" DesignTimeRectangle="1062, 1395, 152, 34" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='STRONG' class='' aaname=' Resolución: ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Resolución:' /&gt;" Guid="587f3ef4-96e4-4202-85e7-f33215321a09" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="aa3b6e8ace5e4742e269df3356e56d05.jpg" xmlns="">05IxnTBz6iUaCWXXr4-n0YA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

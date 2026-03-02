@@ -119,7 +119,7 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1922,15026" sap2010:WorkflowViewState.IdRef="Sequence_3">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1922,18125.333333333332" sap2010:WorkflowViewState.IdRef="Sequence_3">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="Puesto" />
       <Variable x:TypeArguments="x:String" Name="Mesa" />
@@ -136,15 +136,15 @@
       <Variable x:TypeArguments="sd3:DataRow" Name="Fila_Tabla" />
       <Variable x:TypeArguments="x:String" Name="Direccion" />
       <Variable x:TypeArguments="x:String" Name="Fecha_Hora" />
-      <Variable x:TypeArguments="x:Int32" Default="0" Name="Cantidad_Ciclo" />
       <Variable x:TypeArguments="sd:DataTable1" Name="Tabla_Datos" />
+      <Variable x:TypeArguments="x:Int32" Default="0" Name="Cantidad_Ciclo" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Secuencia" sap:VirtualizedContainerService.HintSize="800.6666666666666,15003.333333333334" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Secuencia" sap:VirtualizedContainerService.HintSize="800.6666666666666,18102.666666666668" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:Boolean" Default="True" Name="Ciclo_Infinito" />
       </Sequence.Variables>
@@ -153,9 +153,9 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:InterruptibleWhile CurrentIndex="{x:Null}" Condition="[Ciclo_Infinito =True]" DisplayName="While" sap:VirtualizedContainerService.HintSize="766.6666666666666,14920.666666666666" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_2">
+      <ui:InterruptibleWhile CurrentIndex="{x:Null}" Condition="[Ciclo_Infinito =True]" DisplayName="While" sap:VirtualizedContainerService.HintSize="766.6666666666666,18020" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_2">
         <ui:InterruptibleWhile.Body>
-          <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="764.6666666666666,14798" sap2010:WorkflowViewState.IdRef="Sequence_14">
+          <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="764.6666666666666,17897.333333333332" sap2010:WorkflowViewState.IdRef="Sequence_14">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -347,21 +347,21 @@
                 </scg:List>
               </ui:MultipleAssign.AssignOperations>
             </ui:MultipleAssign>
-            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Elecciones Colombia" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="730.6666666666666,13522" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="491986b4-9132-423d-a009-74060b91ccd1" Version="V2">
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Elecciones Colombia" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="730.6666666666666,16621.333333333332" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="491986b4-9132-423d-a009-74060b91ccd1" Version="V2">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="728.6666666666666,13323.333333333334" sap2010:WorkflowViewState.IdRef="Sequence_1">
+                  <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="728.6666666666666,16422.666666666668" sap2010:WorkflowViewState.IdRef="Sequence_1">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[Ciclo_Ingreso = True]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="694.6666666666666,13259.333333333334" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1">
+                    <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[Ciclo_Ingreso = True]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="694.6666666666666,16358.666666666666" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1">
                       <ui:InterruptibleDoWhile.Body>
-                        <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="692.6666666666666,13132.666666666666" sap2010:WorkflowViewState.IdRef="Sequence_44">
+                        <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="692.6666666666666,16232" sap2010:WorkflowViewState.IdRef="Sequence_44">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -389,9 +389,9 @@
                               </uix:VerifyExecutionTypeIntoOptions>
                             </uix:NTypeInto.VerifyOptions>
                           </uix:NTypeInto>
-                          <uix:NCheckState DisplayName="Comprobar estado de aplicación 'Cualquier inquietud o r…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="658.6666666666666,12688.666666666666" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" Timeout="30" Version="V5">
+                          <uix:NCheckState DisplayName="Comprobar estado de aplicación 'Cualquier inquietud o r…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="658.6666666666666,15788" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" Timeout="30" Version="V5">
                             <uix:NCheckState.IfExists>
-                              <Sequence DisplayName="Aparece el destino" sap:VirtualizedContainerService.HintSize="656.6666666666666,11548" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                              <Sequence DisplayName="Aparece el destino" sap:VirtualizedContainerService.HintSize="656.6666666666666,14647.333333333334" sap2010:WorkflowViewState.IdRef="Sequence_5">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -446,7 +446,35 @@
                                     </Sequence>
                                   </TryCatch.Finally>
                                 </TryCatch>
-                                <uix:NCheckState DisplayName="Comprobar estado de aplicación 'Documento de identidad'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="622.6666666666666,10551.333333333334" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" Timeout="5" Version="V5">
+                                <uix:NCheckState DisplayName="Comprobar estado de aplicación 'La información aquí sum…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="622.6666666666666,701.3333333333334" sap2010:WorkflowViewState.IdRef="NCheckState_6" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" Version="V5">
+                                  <uix:NCheckState.IfExists>
+                                    <Sequence DisplayName="Aparece el destino" sap:VirtualizedContainerService.HintSize="450,254" sap2010:WorkflowViewState.IdRef="Sequence_52">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Aceptar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,190" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" Version="V5">
+                                        <uix:NClick.Target>
+                                          <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" ContentHash="naTM1mNZ5kimeH9cZKYUzw" DesignTimeRectangle="1841, 1397, 180, 78" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Aceptar' tag='BUTTON' /&gt;" Guid="7c1783de-43eb-4de0-baf8-fe76124586ce" InformativeScreenshot="25917eade3ef7bf29620c148218221a8.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/P4QaqMHZEEyKvQLX7QaOlA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                                        </uix:NClick.Target>
+                                      </uix:NClick>
+                                    </Sequence>
+                                  </uix:NCheckState.IfExists>
+                                  <uix:NCheckState.IfNotExists>
+                                    <Sequence DisplayName="No aparece el destino" sap:VirtualizedContainerService.HintSize="450,94.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_53">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                    </Sequence>
+                                  </uix:NCheckState.IfNotExists>
+                                  <uix:NCheckState.Target>
+                                    <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" ContentHash="vDKdUHQEGkOkat-Mojbang" DesignTimeRectangle="1316, 800, 1230, 36" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='modalTitle' parentid='root' tag='DIV' /&gt;" Guid="9f601ccf-fba4-4506-8ea3-ded27d270877" InformativeScreenshot="e20e8438d829e949f5abaf39f0b15fbc.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/-U3jV-sj1E6bkAyXrsg8OQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                                  </uix:NCheckState.Target>
+                                </uix:NCheckState>
+                                <uix:NCheckState DisplayName="Comprobar estado de aplicación 'Documento de identidad'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="622.6666666666666,12949.333333333334" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" Timeout="5" Version="V5">
                                   <uix:NCheckState.IfExists>
                                     <Sequence DisplayName="Aparece el destino" sap:VirtualizedContainerService.HintSize="620.6666666666666,5096.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_10">
                                       <sap:WorkflowViewStateService.ViewState>
@@ -473,10 +501,10 @@
                                             </sap:WorkflowViewStateService.ViewState>
                                             <uix:NGetText ContinueOnError="True" DisplayName="Obtener texto 'Puesto'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,138" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" TextString="[Puesto]" Timeout="2" Version="V5">
                                               <uix:NGetText.Target>
-                                                <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" ContentHash="KUjzOXDedU2J0ZPD74Bzag" CvType="AnyWordGroup" DesignTimeRectangle="1739, 1107, 155, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='text-[14px] md:text-[18px] font-light' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="0e79222e-3e0d-41a8-a296-6b939bc4ac2e" InformativeScreenshot="ad1a60f458f0cef19cd5f00daab9abef.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/S6oQ8CjFA0ObNxYEeAl8LQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                                                <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" ContentHash="seshMLTjrU-YoPqf4xazGQ" DesignTimeRectangle="1739, 1177, 155, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='text-[14px] md:text-[18px] font-light' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="0e79222e-3e0d-41a8-a296-6b939bc4ac2e" InformativeScreenshot="ad1a60f458f0cef19cd5f00daab9abef.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/S6oQ8CjFA0ObNxYEeAl8LQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
                                                   <uix:TargetAnchorable.Anchors>
                                                     <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                      <uix:Target CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" CvTextArea="1770, 1062, 90, 22" CvTextArgument="Puesto" CvType="Text" DesignTimeRectangle="1739, 1053, 155, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Puesto' tag='SPAN' type='' class='block font-semibold text-[14px] md:text-[18px]' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Puesto' /&gt;" Guid="d89bfddb-0e6a-4721-8d8c-def9e5f3003b" SearchSteps="FuzzySelector, CV" />
+                                                      <uix:Target CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" DesignTimeRectangle="1739, 1123, 155, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Puesto' tag='SPAN' type='' class='block font-semibold text-[14px] md:text-[18px]' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Puesto' /&gt;" Guid="d89bfddb-0e6a-4721-8d8c-def9e5f3003b" SearchSteps="FuzzySelector" />
                                                     </scg:List>
                                                   </uix:TargetAnchorable.Anchors>
                                                 </uix:TargetAnchorable>
@@ -504,10 +532,10 @@
                                             </sap:WorkflowViewStateService.ViewState>
                                             <uix:NGetText ContinueOnError="True" DisplayName="Obtener texto 'Mesa'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,138" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" TextString="[Mesa]" Timeout="2" Version="V5">
                                               <uix:NGetText.Target>
-                                                <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" ContentHash="aR9op--H4UqGI6tfv28jYw" DesignTimeRectangle="1930, 1107, 70, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='text-[14px] md:text-[18px] font-light' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="0a4f318c-1fbb-4c3a-a1f5-98f453c30ccf" InformativeScreenshot="3105dd8928db7cc9380ca500bf028c69.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/me7kUuEKcUubk-8YckNcDQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                                                <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" ContentHash="qG_yvNDq_EC-ncg8z-8pTQ" DesignTimeRectangle="1930, 1177, 70, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='text-[14px] md:text-[18px] font-light' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="0a4f318c-1fbb-4c3a-a1f5-98f453c30ccf" InformativeScreenshot="c4a54408798dfaa80fe97799f8b50c97.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/me7kUuEKcUubk-8YckNcDQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
                                                   <uix:TargetAnchorable.Anchors>
                                                     <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                      <uix:Target CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" CvTextArea="1929, 1061, 69, 24" CvTextArgument="Mesa" CvType="Text" DesignTimeRectangle="1930, 1053, 70, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Mesa' tag='SPAN' type='' class='block font-semibold text-[14px] md:text-[18px]' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Mesa' /&gt;" Guid="c10fb3d9-c910-4d1b-b47b-6eab9fb5c693" SearchSteps="FuzzySelector, CV" />
+                                                      <uix:Target CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" DesignTimeRectangle="1930, 1123, 70, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Mesa' tag='SPAN' type='' class='block font-semibold text-[14px] md:text-[18px]' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Mesa' /&gt;" Guid="c10fb3d9-c910-4d1b-b47b-6eab9fb5c693" SearchSteps="FuzzySelector" />
                                                     </scg:List>
                                                   </uix:TargetAnchorable.Anchors>
                                                 </uix:TargetAnchorable>
@@ -535,10 +563,10 @@
                                             </sap:WorkflowViewStateService.ViewState>
                                             <uix:NGetText ContinueOnError="True" DisplayName="Obtener texto 'Zona'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,138" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" TextString="[Zona]" Timeout="2" Version="V5">
                                               <uix:NGetText.Target>
-                                                <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" ContentHash="4BrKYgRMvkKiwwAvosiDqQ" DesignTimeRectangle="2036, 1107, 64, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='text-[14px] md:text-[18px] font-light' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="f89fbd92-1901-4df9-9303-d6d3d62c6afe" InformativeScreenshot="f81dcd00ab8095b3c0163d9eb251c467.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/nSBA8Y8UFUi51q0aS7cBcg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                                                <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" ContentHash="d6qKE2Bx90-jmzPWV6qJiA" DesignTimeRectangle="2036, 1177, 64, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='text-[14px] md:text-[18px] font-light' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="f89fbd92-1901-4df9-9303-d6d3d62c6afe" InformativeScreenshot="d1887e5755b9b10bbe6225bcdbc57674.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/nSBA8Y8UFUi51q0aS7cBcg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
                                                   <uix:TargetAnchorable.Anchors>
                                                     <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                      <uix:Target CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" CvTextArea="2033, 1062, 67, 24" CvTextArgument="Zona" CvType="Text" DesignTimeRectangle="2036, 1053, 64, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Zona' tag='SPAN' type='' class='block font-semibold text-[14px] md:text-[18px]' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Zona' /&gt;" Guid="dda681f7-f5a9-45c4-bb52-746751a586a0" SearchSteps="FuzzySelector, CV" />
+                                                      <uix:Target CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" DesignTimeRectangle="2036, 1123, 64, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Zona' tag='SPAN' type='' class='block font-semibold text-[14px] md:text-[18px]' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Zona' /&gt;" Guid="dda681f7-f5a9-45c4-bb52-746751a586a0" SearchSteps="FuzzySelector" />
                                                     </scg:List>
                                                   </uix:TargetAnchorable.Anchors>
                                                 </uix:TargetAnchorable>
@@ -566,10 +594,10 @@
                                             </sap:WorkflowViewStateService.ViewState>
                                             <uix:NGetText ContinueOnError="True" DisplayName="Obtener texto 'Departamento'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,138" sap2010:WorkflowViewState.IdRef="NGetText_4" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" TextString="[Departamento]" Timeout="2" Version="V5">
                                               <uix:NGetText.Target>
-                                                <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" ContentHash="anjw8lP_OEKRCOhJ6DuwUQ" DesignTimeRectangle="1249, 1263, 191, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='text-[14px] md:text-[18px] font-light' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="b89acd86-be82-44c2-9da6-993092dabd3e" InformativeScreenshot="03d1624766c4aeb88fcba4fcdb4e5fa0.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/tJEzHhmeWU-_E4HSKeTtDw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                                                <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" ContentHash="i7d765vYb0Oug6FdrWrYhw" DesignTimeRectangle="1249, 1333, 191, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='text-[14px] md:text-[18px] font-light' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="b89acd86-be82-44c2-9da6-993092dabd3e" InformativeScreenshot="e77187ba8cb3a24131f022e8be1e4857.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/tJEzHhmeWU-_E4HSKeTtDw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
                                                   <uix:TargetAnchorable.Anchors>
                                                     <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                      <uix:Target CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" CvTextArea="1248, 1218, 193, 28" CvTextArgument="Departamento" CvType="Text" DesignTimeRectangle="1249, 1209, 191, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Departamento' tag='SPAN' type='' class='block font-semibold text-[14px] md:text-[18px]' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Departamento' /&gt;" Guid="3ff85695-08f3-4fa4-81a4-c2f97bcf87bf" SearchSteps="FuzzySelector, CV" />
+                                                      <uix:Target CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" DesignTimeRectangle="1249, 1279, 191, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Departamento' tag='SPAN' type='' class='block font-semibold text-[14px] md:text-[18px]' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Departamento' /&gt;" Guid="3ff85695-08f3-4fa4-81a4-c2f97bcf87bf" SearchSteps="FuzzySelector" />
                                                     </scg:List>
                                                   </uix:TargetAnchorable.Anchors>
                                                 </uix:TargetAnchorable>
@@ -597,10 +625,10 @@
                                             </sap:WorkflowViewStateService.ViewState>
                                             <uix:NGetText ContinueOnError="True" DisplayName="Obtener texto 'Municipio'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,138" sap2010:WorkflowViewState.IdRef="NGetText_5" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" TextString="[Municipio]" Timeout="2" Version="V5">
                                               <uix:NGetText.Target>
-                                                <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" ContentHash="mhkY9Mh0LEiuJN0RL3Ggpg" DesignTimeRectangle="1495, 1263, 171, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='text-[14px] md:text-[18px] font-light' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="3c6905a9-e7f4-4f00-ae45-8e6cfcb4a826" InformativeScreenshot="8822aa3631fd0477c22a7760efcfd1f0.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/LdNvoCOB-0iItmrxkW0JRg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                                                <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" ContentHash="qOS_-j1MeU2pMB9deBPMOA" DesignTimeRectangle="1495, 1333, 171, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='text-[14px] md:text-[18px] font-light' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="3c6905a9-e7f4-4f00-ae45-8e6cfcb4a826" InformativeScreenshot="c02f852c5a4cc5d1a64de32f268823cb.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/LdNvoCOB-0iItmrxkW0JRg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
                                                   <uix:TargetAnchorable.Anchors>
                                                     <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                      <uix:Target CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" CvTextArea="1515, 1217, 130, 30" CvTextArgument="Municipio" CvType="Text" DesignTimeRectangle="1495, 1209, 171, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Municipio' tag='SPAN' type='' class='block font-semibold text-[14px] md:text-[18px]' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Municipio' /&gt;" Guid="280d012d-c796-4b88-b49c-35acec9a0bf2" SearchSteps="FuzzySelector, CV" />
+                                                      <uix:Target CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" DesignTimeRectangle="1495, 1279, 171, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Municipio' tag='SPAN' type='' class='block font-semibold text-[14px] md:text-[18px]' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Municipio' /&gt;" Guid="280d012d-c796-4b88-b49c-35acec9a0bf2" SearchSteps="FuzzySelector" />
                                                     </scg:List>
                                                   </uix:TargetAnchorable.Anchors>
                                                 </uix:TargetAnchorable>
@@ -628,10 +656,10 @@
                                             </sap:WorkflowViewStateService.ViewState>
                                             <uix:NGetText ContinueOnError="True" DisplayName="Obtener texto 'Localidad'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,138" sap2010:WorkflowViewState.IdRef="NGetText_6" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" TextString="[Localidad]" Timeout="2" Version="V5">
                                               <uix:NGetText.Target>
-                                                <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" ContentHash="O4F35rqx-kCP_CzLpQtO0A" DesignTimeRectangle="1721, 1263, 303, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='text-[14px] md:text-[18px] font-light' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="aa3fc57f-750f-4698-8886-f51aafbfe634" InformativeScreenshot="7cd7634570359a80f28313b8c466b4e2.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/efrnUsXjfU-GzUeszRvXeg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                                                <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" ContentHash="PEAjme51SkGBM57DogeoRQ" DesignTimeRectangle="1721, 1333, 303, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='text-[14px] md:text-[18px] font-light' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="aa3fc57f-750f-4698-8886-f51aafbfe634" InformativeScreenshot="4f3f8af37c8219a957704ec732ccb38d.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/efrnUsXjfU-GzUeszRvXeg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
                                                   <uix:TargetAnchorable.Anchors>
                                                     <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                      <uix:Target CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" CvTextArea="1809, 1215, 124, 27" CvTextArgument="Localidad" CvType="Text" DesignTimeRectangle="1721, 1209, 303, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Localidad' tag='SPAN' type='' class='block font-semibold text-[14px] md:text-[18px]' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Localidad' /&gt;" Guid="d407ffb6-8080-48ec-a375-fe68b22149f0" SearchSteps="FuzzySelector, CV" />
+                                                      <uix:Target CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" DesignTimeRectangle="1721, 1279, 303, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Localidad' tag='SPAN' type='' class='block font-semibold text-[14px] md:text-[18px]' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Localidad' /&gt;" Guid="d407ffb6-8080-48ec-a375-fe68b22149f0" SearchSteps="FuzzySelector" />
                                                     </scg:List>
                                                   </uix:TargetAnchorable.Anchors>
                                                 </uix:TargetAnchorable>
@@ -659,10 +687,10 @@
                                             </sap:WorkflowViewStateService.ViewState>
                                             <uix:NGetText ContinueOnError="True" DisplayName="Obtener texto 'Código localidad'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,138" sap2010:WorkflowViewState.IdRef="NGetText_7" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" TextString="[Codigo_Localidad]" Timeout="2" Version="V5">
                                               <uix:NGetText.Target>
-                                                <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" ContentHash="-5WqsImJRU6x6DDIA5gtXg" DesignTimeRectangle="2079, 1263, 214, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl type='' tag='SPAN' class='text-[14px] md:text-[18px] font-light' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="2e92970c-894d-4cbf-a020-d6a63c4a62fc" InformativeScreenshot="5fdd0f5f281caeb5d83a1501652c163e.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/rFr2roNdGkqehLTlcrdAdQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                                                <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" ContentHash="WoD77LvB1UWmtqN4jR5i3Q" DesignTimeRectangle="2079, 1333, 214, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl type='' tag='SPAN' class='text-[14px] md:text-[18px] font-light' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="2e92970c-894d-4cbf-a020-d6a63c4a62fc" InformativeScreenshot="5fdd0f5f281caeb5d83a1501652c163e.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/rFr2roNdGkqehLTlcrdAdQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
                                                   <uix:TargetAnchorable.Anchors>
                                                     <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                      <uix:Target CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" CvTextArea="2078, 1215, 216, 31" CvTextArgument="Código localidad" CvType="Text" DesignTimeRectangle="2079, 1209, 214, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Código localidad' tag='SPAN' type='' class='block font-semibold text-[14px] md:text-[18px]' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Código localidad' /&gt;" Guid="c53e697d-b31d-4990-aef0-9e287c7d237e" SearchSteps="FuzzySelector, CV" />
+                                                      <uix:Target CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" DesignTimeRectangle="2079, 1279, 214, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Código localidad' tag='SPAN' type='' class='block font-semibold text-[14px] md:text-[18px]' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Código localidad' /&gt;" Guid="c53e697d-b31d-4990-aef0-9e287c7d237e" SearchSteps="FuzzySelector" />
                                                     </scg:List>
                                                   </uix:TargetAnchorable.Anchors>
                                                 </uix:TargetAnchorable>
@@ -690,10 +718,10 @@
                                             </sap:WorkflowViewStateService.ViewState>
                                             <uix:NGetText ContinueOnError="True" DisplayName="Obtener texto 'Dirección'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,138" sap2010:WorkflowViewState.IdRef="NGetText_8" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" TextString="[Direccion]" Timeout="2" Version="V5">
                                               <uix:NGetText.Target>
-                                                <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" ContentHash="8LiYXXkwlECL8Q5pWJNgYg" DesignTimeRectangle="2348, 1263, 242, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='text-[14px] md:text-[18px] font-light' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="f2929c94-b6b3-407e-ae09-390ec8a7f2e2" InformativeScreenshot="00aaceac1154254d0ab4033f428261eb.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/CGUR6DmFAUCcVgaVcJbEcg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                                                <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" ContentHash="GzNrXMwnEkacU8pSkYaH9Q" DesignTimeRectangle="2348, 1333, 242, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='text-[14px] md:text-[18px] font-light' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="f2929c94-b6b3-407e-ae09-390ec8a7f2e2" InformativeScreenshot="00aaceac1154254d0ab4033f428261eb.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/CGUR6DmFAUCcVgaVcJbEcg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
                                                   <uix:TargetAnchorable.Anchors>
                                                     <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                      <uix:Target CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" CvTextArea="2406, 1217, 124, 25" CvTextArgument="Dirección" CvType="Text" DesignTimeRectangle="2348, 1209, 242, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Dirección' tag='SPAN' type='' class='block font-semibold text-[14px] md:text-[18px]' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Dirección' /&gt;" Guid="c877b81e-9113-44c5-8a2b-9bc85772f1c4" SearchSteps="FuzzySelector, CV" />
+                                                      <uix:Target CVScreenId="022a8e34-2cab-421b-8019-3cdd12e86ca9" DesignTimeRectangle="2348, 1279, 242, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Dirección' tag='SPAN' type='' class='block font-semibold text-[14px] md:text-[18px]' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Dirección' /&gt;" Guid="c877b81e-9113-44c5-8a2b-9bc85772f1c4" SearchSteps="FuzzySelector" />
                                                     </scg:List>
                                                   </uix:TargetAnchorable.Anchors>
                                                 </uix:TargetAnchorable>
@@ -840,13 +868,13 @@
                                     </Sequence>
                                   </uix:NCheckState.IfExists>
                                   <uix:NCheckState.IfNotExists>
-                                    <Sequence DisplayName="No aparece el destino" sap:VirtualizedContainerService.HintSize="620.6666666666666,5111.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                                    <Sequence DisplayName="No aparece el destino" sap:VirtualizedContainerService.HintSize="620.6666666666666,7509.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_11">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <uix:NCheckState DisplayName="Comprobar estado de aplicación 'Cancelada por Muerte'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="586.6666666666666,5047.333333333333" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" Version="V5">
+                                      <uix:NCheckState DisplayName="Comprobar estado de aplicación 'Cancelada por Muerte'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="586.6666666666666,7445.333333333333" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" Version="V5">
                                         <uix:NCheckState.IfExists>
                                           <Sequence DisplayName="Aparece el destino" sap:VirtualizedContainerService.HintSize="584.6666666666666,1938.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_48">
                                             <sap:WorkflowViewStateService.ViewState>
@@ -886,10 +914,10 @@
                                             </ui:MultipleAssign>
                                             <uix:NGetText DisplayName="Obtener texto 'Lugar de votación'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478.6666666666667,147.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_9" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" TextString="[mesa]" Version="V5">
                                               <uix:NGetText.Target>
-                                                <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="62ee4c5d-ab94-47b3-8102-d338d070618b" ContentHash="1P8e9flk-kywELmPI09wUA" CvType="AnyWordGroup" DesignTimeRectangle="1148, 1170, 138, 24" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="3ffe81db-11ba-49aa-aab3-4d76942f544a" InformativeScreenshot="b1d8d4d835002028b77b37fd835b71fe.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/T0yNIKWlhk2H_EPXIvkODQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                                                <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="62ee4c5d-ab94-47b3-8102-d338d070618b" ContentHash="fKJfd63IN02ByC7ZpmASHA" CvType="AnyWordGroup" DesignTimeRectangle="1148, 1247, 134, 24" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="3ffe81db-11ba-49aa-aab3-4d76942f544a" InformativeScreenshot="577ebd4422cd98fc78c57fb67142186b.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/T0yNIKWlhk2H_EPXIvkODQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
                                                   <uix:TargetAnchorable.Anchors>
                                                     <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                      <uix:Target CVScreenId="62ee4c5d-ab94-47b3-8102-d338d070618b" CvTextArea="1128, 1043, 268, 34" CvTextArgument="Lugar de votación" CvType="Text" DesignTimeRectangle="1129, 1037, 267, 41" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Lugar de votación' tag='SPAN' type='' class='md:text-[20px] font-bold' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Lugar de votación' /&gt;" Guid="061db749-56fe-4fbe-9874-c40fcfe8636c" SearchSteps="FuzzySelector, CV" />
+                                                      <uix:Target CVScreenId="62ee4c5d-ab94-47b3-8102-d338d070618b" CvTextArea="1128, 1043, 268, 34" CvTextArgument="Lugar de votación" CvType="Text" DesignTimeRectangle="1129, 1113, 267, 41" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Lugar de votación' tag='SPAN' type='' class='md:text-[20px] font-bold' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Lugar de votación' /&gt;" Guid="061db749-56fe-4fbe-9874-c40fcfe8636c" SearchSteps="FuzzySelector, CV" />
                                                     </scg:List>
                                                   </uix:TargetAnchorable.Anchors>
                                                 </uix:TargetAnchorable>
@@ -1033,13 +1061,218 @@
                                           </Sequence>
                                         </uix:NCheckState.IfExists>
                                         <uix:NCheckState.IfNotExists>
-                                          <Sequence DisplayName="No aparece el destino" sap:VirtualizedContainerService.HintSize="584.6666666666666,2769.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_49">
+                                          <Sequence DisplayName="No aparece el destino" sap:VirtualizedContainerService.HintSize="584.6666666666666,5163.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_49">
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
-                                            <Assign DisplayName="Establecer valor de variable" sap:VirtualizedContainerService.HintSize="550.6666666666666,176.66666666666666" sap2010:WorkflowViewState.IdRef="Assign_4">
+                                            <uix:NCheckState DisplayName="Comprobar estado de aplicación 'Resolución 0001 del año…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="550.6666666666666,2386" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" Version="V5">
+                                              <uix:NCheckState.IfExists>
+                                                <Sequence DisplayName="Aparece el destino" sap:VirtualizedContainerService.HintSize="512.6666666666666,1938.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_50">
+                                                  <sap:WorkflowViewStateService.ViewState>
+                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                    </scg:Dictionary>
+                                                  </sap:WorkflowViewStateService.ViewState>
+                                                  <ui:MultipleAssign DisplayName="Asignación múltiple" sap:VirtualizedContainerService.HintSize="478.6666666666667,214.66666666666666" sap2010:WorkflowViewState.IdRef="MultipleAssign_7">
+                                                    <ui:MultipleAssign.AssignOperations>
+                                                      <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                                                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_50">
+                                                          <ui:AssignOperation.To>
+                                                            <OutArgument x:TypeArguments="x:String">[Puesto]</OutArgument>
+                                                          </ui:AssignOperation.To>
+                                                          <ui:AssignOperation.Value>
+                                                            <InArgument x:TypeArguments="x:String">No se encuentra habilitado para votar</InArgument>
+                                                          </ui:AssignOperation.Value>
+                                                        </ui:AssignOperation>
+                                                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_51">
+                                                          <ui:AssignOperation.To>
+                                                            <OutArgument x:TypeArguments="x:String">[Zona]</OutArgument>
+                                                          </ui:AssignOperation.To>
+                                                          <ui:AssignOperation.Value>
+                                                            <InArgument x:TypeArguments="x:String">FAVOR COMUNICARSE CON LA REGISTRADURIA NACIONAL DEL ESTADO CIVIL</InArgument>
+                                                          </ui:AssignOperation.Value>
+                                                        </ui:AssignOperation>
+                                                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_52">
+                                                          <ui:AssignOperation.To>
+                                                            <OutArgument x:TypeArguments="x:String">[Departamento]</OutArgument>
+                                                          </ui:AssignOperation.To>
+                                                          <ui:AssignOperation.Value>
+                                                            <InArgument x:TypeArguments="x:String">Resolución 0001 del año 2021</InArgument>
+                                                          </ui:AssignOperation.Value>
+                                                        </ui:AssignOperation>
+                                                      </scg:List>
+                                                    </ui:MultipleAssign.AssignOperations>
+                                                  </ui:MultipleAssign>
+                                                  <uix:NGetText DisplayName="Obtener texto 'Lugar de votación'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478.6666666666667,147.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_10" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" TextString="[mesa]" Version="V5">
+                                                    <uix:NGetText.Target>
+                                                      <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="62ee4c5d-ab94-47b3-8102-d338d070618b" ContentHash="fKJfd63IN02ByC7ZpmASHA" CvType="AnyWordGroup" DesignTimeRectangle="1148, 1247, 134, 24" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="3ffe81db-11ba-49aa-aab3-4d76942f544a" InformativeScreenshot="577ebd4422cd98fc78c57fb67142186b.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/T0yNIKWlhk2H_EPXIvkODQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                                                        <uix:TargetAnchorable.Anchors>
+                                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                            <uix:Target CVScreenId="62ee4c5d-ab94-47b3-8102-d338d070618b" CvTextArea="1128, 1043, 268, 34" CvTextArgument="Lugar de votación" CvType="Text" DesignTimeRectangle="1129, 1113, 267, 41" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Lugar de votación' tag='SPAN' type='' class='md:text-[20px] font-bold' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Lugar de votación' /&gt;" Guid="061db749-56fe-4fbe-9874-c40fcfe8636c" SearchSteps="FuzzySelector, CV" />
+                                                          </scg:List>
+                                                        </uix:TargetAnchorable.Anchors>
+                                                      </uix:TargetAnchorable>
+                                                    </uix:NGetText.Target>
+                                                  </uix:NGetText>
+                                                  <ui:MultipleAssign DisplayName="Asignación múltiple" sap:VirtualizedContainerService.HintSize="478.6666666666667,460" sap2010:WorkflowViewState.IdRef="MultipleAssign_8">
+                                                    <ui:MultipleAssign.AssignOperations>
+                                                      <scg:List x:TypeArguments="ui:AssignOperation" Capacity="16">
+                                                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_53">
+                                                          <ui:AssignOperation.To>
+                                                            <OutArgument x:TypeArguments="sd3:DataRow">[Fila_Tabla]</OutArgument>
+                                                          </ui:AssignOperation.To>
+                                                          <ui:AssignOperation.Value>
+                                                            <InArgument x:TypeArguments="sd3:DataRow">[Tabla_Exportacion.NewRow]</InArgument>
+                                                          </ui:AssignOperation.Value>
+                                                        </ui:AssignOperation>
+                                                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_54">
+                                                          <ui:AssignOperation.To>
+                                                            <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Cedula")]</OutArgument>
+                                                          </ui:AssignOperation.To>
+                                                          <ui:AssignOperation.Value>
+                                                            <InArgument x:TypeArguments="x:Object">[Cedula]</InArgument>
+                                                          </ui:AssignOperation.Value>
+                                                        </ui:AssignOperation>
+                                                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_55">
+                                                          <ui:AssignOperation.To>
+                                                            <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Puesto")]</OutArgument>
+                                                          </ui:AssignOperation.To>
+                                                          <ui:AssignOperation.Value>
+                                                            <InArgument x:TypeArguments="x:String">[Puesto]</InArgument>
+                                                          </ui:AssignOperation.Value>
+                                                        </ui:AssignOperation>
+                                                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_56">
+                                                          <ui:AssignOperation.To>
+                                                            <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Mesa")]</OutArgument>
+                                                          </ui:AssignOperation.To>
+                                                          <ui:AssignOperation.Value>
+                                                            <InArgument x:TypeArguments="x:String">[Mesa]</InArgument>
+                                                          </ui:AssignOperation.Value>
+                                                        </ui:AssignOperation>
+                                                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_57">
+                                                          <ui:AssignOperation.To>
+                                                            <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Zona")]</OutArgument>
+                                                          </ui:AssignOperation.To>
+                                                          <ui:AssignOperation.Value>
+                                                            <InArgument x:TypeArguments="x:Object">[Zona]</InArgument>
+                                                          </ui:AssignOperation.Value>
+                                                        </ui:AssignOperation>
+                                                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_58">
+                                                          <ui:AssignOperation.To>
+                                                            <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Departamento")]</OutArgument>
+                                                          </ui:AssignOperation.To>
+                                                          <ui:AssignOperation.Value>
+                                                            <InArgument x:TypeArguments="x:Object">[Departamento]</InArgument>
+                                                          </ui:AssignOperation.Value>
+                                                        </ui:AssignOperation>
+                                                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_59">
+                                                          <ui:AssignOperation.To>
+                                                            <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Municipio")]</OutArgument>
+                                                          </ui:AssignOperation.To>
+                                                          <ui:AssignOperation.Value>
+                                                            <InArgument x:TypeArguments="x:Object">[Municipio]</InArgument>
+                                                          </ui:AssignOperation.Value>
+                                                        </ui:AssignOperation>
+                                                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_60">
+                                                          <ui:AssignOperation.To>
+                                                            <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Localidad")]</OutArgument>
+                                                          </ui:AssignOperation.To>
+                                                          <ui:AssignOperation.Value>
+                                                            <InArgument x:TypeArguments="x:Object">[Localidad]</InArgument>
+                                                          </ui:AssignOperation.Value>
+                                                        </ui:AssignOperation>
+                                                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_61">
+                                                          <ui:AssignOperation.To>
+                                                            <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Codigo_Localidad")]</OutArgument>
+                                                          </ui:AssignOperation.To>
+                                                          <ui:AssignOperation.Value>
+                                                            <InArgument x:TypeArguments="x:Object">[Codigo_Localidad]</InArgument>
+                                                          </ui:AssignOperation.Value>
+                                                        </ui:AssignOperation>
+                                                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_62">
+                                                          <ui:AssignOperation.To>
+                                                            <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Direccion")]</OutArgument>
+                                                          </ui:AssignOperation.To>
+                                                          <ui:AssignOperation.Value>
+                                                            <InArgument x:TypeArguments="x:String">[Direccion]</InArgument>
+                                                          </ui:AssignOperation.Value>
+                                                        </ui:AssignOperation>
+                                                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_63">
+                                                          <ui:AssignOperation.To>
+                                                            <OutArgument x:TypeArguments="x:Object">[Fila_Tabla("Fecha_Hora")]</OutArgument>
+                                                          </ui:AssignOperation.To>
+                                                          <ui:AssignOperation.Value>
+                                                            <InArgument x:TypeArguments="x:Object">[DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")]</InArgument>
+                                                          </ui:AssignOperation.Value>
+                                                        </ui:AssignOperation>
+                                                      </scg:List>
+                                                    </ui:MultipleAssign.AssignOperations>
+                                                  </ui:MultipleAssign>
+                                                  <ui:AddDataRow ArrayRow="{x:Null}" DataRow="[Fila_Tabla]" DataTable="[Tabla_Exportacion]" DisplayName="Añadir fila de datos" sap:VirtualizedContainerService.HintSize="478.6666666666667,227.33333333333334" sap2010:WorkflowViewState.IdRef="AddDataRow_4" />
+                                                  <uga:WriteRangeConnections ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="Robots_Puestos de Votacion " BrowserItemId="https://docs.google.com/spreadsheets/d/1yPVRZ0a_RwoeODiB8aUdtr7zcGftK5baZLW-AKKMHOM/edit?usp=drivesdk" ConnectionId="12bb7e90-e733-4a9f-aae9-ae38f2fc31ca" DisplayName="Escribir rango" sap:VirtualizedContainerService.HintSize="478.6666666666667,408" sap2010:WorkflowViewState.IdRef="WriteRangeConnections_4" IncludeHeaders="False" ItemSelectionMode="Browse" Range="'Consulta_Robots'" RowPosition="0" Source="[Tabla_Exportacion]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False" WriteMode="Append">
+                                                    <uga:WriteRangeConnections.FileIdBackup>
+                                                      <usau:BackupSlot x:TypeArguments="ugade:EDriveItemMode" x:Name="__ReferenceID3" StoredValue="Browse">
+                                                        <usau:BackupSlot.BackupValues>
+                                                          <scg:Dictionary x:TypeArguments="ugade:EDriveItemMode, scg:List(x:Object)" />
+                                                        </usau:BackupSlot.BackupValues>
+                                                      </usau:BackupSlot>
+                                                    </uga:WriteRangeConnections.FileIdBackup>
+                                                    <uga:WriteRangeConnections.Item>
+                                                      <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID3}" ConnectionDescriptor="{x:Null}" ConnectionKey="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="https://docs.google.com/spreadsheets/d/1yPVRZ0a_RwoeODiB8aUdtr7zcGftK5baZLW-AKKMHOM/edit?usp=drivesdk" FriendlyName="Robots_Puestos de Votacion " FullPathHint="Robots_Puestos de Votacion " InputMode="Browse">
+                                                        <ugam:DriveItemArgument.DriveId>
+                                                          <InArgument x:TypeArguments="x:String" />
+                                                        </ugam:DriveItemArgument.DriveId>
+                                                        <ugam:DriveItemArgument.ParentIdFullPathHint>
+                                                          <InArgument x:TypeArguments="x:String">
+                                                            <Literal x:TypeArguments="x:String" Value="" />
+                                                          </InArgument>
+                                                        </ugam:DriveItemArgument.ParentIdFullPathHint>
+                                                      </ugam:DriveItemArgument>
+                                                    </uga:WriteRangeConnections.Item>
+                                                    <uga:WriteRangeConnections.RangeWriteModeBackup>
+                                                      <usau:BackupSlot x:TypeArguments="ugase:RangeWriteMode" StoredValue="Append">
+                                                        <usau:BackupSlot.BackupValues>
+                                                          <scg:List x:TypeArguments="x:Object" x:Key="Overwrite" Capacity="1">
+                                                            <x:String></x:String>
+                                                          </scg:List>
+                                                        </usau:BackupSlot.BackupValues>
+                                                      </usau:BackupSlot>
+                                                    </uga:WriteRangeConnections.RangeWriteModeBackup>
+                                                  </uga:WriteRangeConnections>
+                                                  <Assign DisplayName="Establecer valor de variable" sap:VirtualizedContainerService.HintSize="478.6666666666667,180.66666666666666" sap2010:WorkflowViewState.IdRef="Assign_9">
+                                                    <Assign.To>
+                                                      <OutArgument x:TypeArguments="x:Boolean">[Ciclo_Ingreso]</OutArgument>
+                                                    </Assign.To>
+                                                    <Assign.Value>
+                                                      <InArgument x:TypeArguments="x:Boolean">[False]</InArgument>
+                                                    </Assign.Value>
+                                                  </Assign>
+                                                  <ui:ClearDataTable DataTable="[Tabla_Exportacion]" DisplayName="Borrar tabla de datos" sap:VirtualizedContainerService.HintSize="478.6666666666667,118" sap2010:WorkflowViewState.IdRef="ClearDataTable_4" />
+                                                  <uix:NGoToUrl DisplayName="Ir a URL - registraduria.gov.co" sap:VirtualizedContainerService.HintSize="478.6666666666667,118.66666666666667" sap2010:WorkflowViewState.IdRef="NGoToUrl_7" ScopeIdentifier="491986b4-9132-423d-a009-74060b91ccd1" Url="https://eleccionescolombia.registraduria.gov.co/identificacion" Version="V5" />
+                                                </Sequence>
+                                              </uix:NCheckState.IfExists>
+                                              <uix:NCheckState.IfNotExists>
+                                                <Sequence DisplayName="No aparece el destino" sap:VirtualizedContainerService.HintSize="512.6666666666666,94.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_51">
+                                                  <sap:WorkflowViewStateService.ViewState>
+                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                    </scg:Dictionary>
+                                                  </sap:WorkflowViewStateService.ViewState>
+                                                </Sequence>
+                                              </uix:NCheckState.IfNotExists>
+                                              <uix:NCheckState.Target>
+                                                <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="dcb0a3c6-3982-448a-b8b1-3a46b3775210" ContentHash="P9X8XmG2FEeTHKKTDaIlCQ" CvTextArea="1214, 1398, 351, 26" CvTextArgument="Resolución 0001 del año 2021" CvType="Text" DesignTimeRectangle="1212, 1398, 353, 26" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="7e9a051b-7385-4826-94d2-a813cb03701c" InformativeScreenshot="aa3b6e8ace5e4742e269df3356e56d05.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/5-0wbEoP_0maDgiDd-Hfdg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                                                  <uix:TargetAnchorable.Anchors>
+                                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                      <uix:Target CVScreenId="dcb0a3c6-3982-448a-b8b1-3a46b3775210" CvTextArea="1061, 1398, 147, 25" CvTextArgument="Resolución:" CvType="Text" DesignTimeRectangle="1062, 1395, 152, 34" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='STRONG' class='' aaname=' Resolución: ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Resolución:' /&gt;" Guid="587f3ef4-96e4-4202-85e7-f33215321a09" SearchSteps="FuzzySelector, CV" />
+                                                    </scg:List>
+                                                  </uix:TargetAnchorable.Anchors>
+                                                </uix:TargetAnchorable>
+                                              </uix:NCheckState.Target>
+                                            </uix:NCheckState>
+                                            <Assign DisplayName="Establecer valor de variable" sap:VirtualizedContainerService.HintSize="550.6666666666666,180.66666666666666" sap2010:WorkflowViewState.IdRef="Assign_4">
                                               <Assign.To>
                                                 <OutArgument x:TypeArguments="x:Int32">[Cantidad_Ciclo]</OutArgument>
                                               </Assign.To>
@@ -1189,14 +1422,14 @@
                                                         <ui:AddDataRow ArrayRow="{x:Null}" DataRow="[Fila_Tabla]" DataTable="[Tabla_Exportacion]" DisplayName="Añadir fila de datos" sap:VirtualizedContainerService.HintSize="478.6666666666667,227.33333333333334" sap2010:WorkflowViewState.IdRef="AddDataRow_2" />
                                                         <uga:WriteRangeConnections ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="Robots_Puestos de Votacion " BrowserItemId="https://docs.google.com/spreadsheets/d/1yPVRZ0a_RwoeODiB8aUdtr7zcGftK5baZLW-AKKMHOM/edit?usp=drivesdk" ConnectionId="12bb7e90-e733-4a9f-aae9-ae38f2fc31ca" DisplayName="Escribir rango" sap:VirtualizedContainerService.HintSize="478.6666666666667,408" sap2010:WorkflowViewState.IdRef="WriteRangeConnections_2" IncludeHeaders="False" ItemSelectionMode="Browse" Range="'Consulta_Robots'" RowPosition="0" Source="[Tabla_Exportacion]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False" WriteMode="Append">
                                                           <uga:WriteRangeConnections.FileIdBackup>
-                                                            <usau:BackupSlot x:TypeArguments="ugade:EDriveItemMode" x:Name="__ReferenceID3" StoredValue="Browse">
+                                                            <usau:BackupSlot x:TypeArguments="ugade:EDriveItemMode" x:Name="__ReferenceID4" StoredValue="Browse">
                                                               <usau:BackupSlot.BackupValues>
                                                                 <scg:Dictionary x:TypeArguments="ugade:EDriveItemMode, scg:List(x:Object)" />
                                                               </usau:BackupSlot.BackupValues>
                                                             </usau:BackupSlot>
                                                           </uga:WriteRangeConnections.FileIdBackup>
                                                           <uga:WriteRangeConnections.Item>
-                                                            <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID3}" ConnectionDescriptor="{x:Null}" ConnectionKey="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="https://docs.google.com/spreadsheets/d/1yPVRZ0a_RwoeODiB8aUdtr7zcGftK5baZLW-AKKMHOM/edit?usp=drivesdk" FriendlyName="Robots_Puestos de Votacion " FullPathHint="Robots_Puestos de Votacion " InputMode="Browse">
+                                                            <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID4}" ConnectionDescriptor="{x:Null}" ConnectionKey="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="https://docs.google.com/spreadsheets/d/1yPVRZ0a_RwoeODiB8aUdtr7zcGftK5baZLW-AKKMHOM/edit?usp=drivesdk" FriendlyName="Robots_Puestos de Votacion " FullPathHint="Robots_Puestos de Votacion " InputMode="Browse">
                                                               <ugam:DriveItemArgument.DriveId>
                                                                 <InArgument x:TypeArguments="x:String" />
                                                               </ugam:DriveItemArgument.DriveId>
@@ -1267,13 +1500,7 @@
                                     </Sequence>
                                   </uix:NCheckState.IfNotExists>
                                   <uix:NCheckState.Target>
-                                    <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="1b2a86d6-a291-4948-83da-312c3da65c97" ContentHash="YM0OAWbc-0iOjDFnrceQbw" CvTextArea="1779, 905, 279, 22" CvTextArgument="Documento de identidad" CvType="Text" DesignTimeRectangle="1780, 899, 279, 36" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='font-normal' tag='H2' /&gt;" Guid="ed6df0a1-5b45-4804-ba91-dd5ff2f24f07" InformativeScreenshot="81d277f73ce9ce489dc331aabb86dec0.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/EAD_S4um7Eu4xPRreF0pCQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-                                      <uix:TargetAnchorable.Anchors>
-                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                          <uix:Target CVScreenId="1b2a86d6-a291-4948-83da-312c3da65c97" DesignTimeRectangle="1790, 947, 259, 58" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='C.C. 52440635' tag='SPAN' type='' class='font-semibold text-[26px]' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='C.C. 52440635' /&gt;" Guid="7d341023-f1be-4e03-be23-008d7a0efa81" SearchSteps="FuzzySelector" />
-                                        </scg:List>
-                                      </uix:TargetAnchorable.Anchors>
-                                    </uix:TargetAnchorable>
+                                    <uix:TargetAnchorable BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="1b2a86d6-a291-4948-83da-312c3da65c97" ContentHash="Witvhh4HP0q5R3QZ4EgjAA" DesignTimeRectangle="1780, 969, 279, 36" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='font-normal' tag='H2' /&gt;" Guid="ed6df0a1-5b45-4804-ba91-dd5ff2f24f07" InformativeScreenshot="f4b8f169d7b1aee4e98e05382a17236d.jpg" Reference="Bfm9rTQjp0yuZZWkJHr_zw/EAD_S4um7Eu4xPRreF0pCQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                                   </uix:NCheckState.Target>
                                 </uix:NCheckState>
                               </Sequence>

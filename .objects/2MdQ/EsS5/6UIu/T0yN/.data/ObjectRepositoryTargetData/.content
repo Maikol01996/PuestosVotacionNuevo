@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="1P8e9flk-kywELmPI09wUA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="fKJfd63IN02ByC7ZpmASHA" Reference="Bfm9rTQjp0yuZZWkJHr_zw/T0yNIKWlhk2H_EPXIvkODQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="62ee4c5d-ab94-47b3-8102-d338d070618b" CvType="AnyWordGroup" DesignTimeRectangle="1148, 1170, 138, 24" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="3ffe81db-11ba-49aa-aab3-4d76942f544a" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" CVScreenId="62ee4c5d-ab94-47b3-8102-d338d070618b" CvType="AnyWordGroup" DesignTimeRectangle="1148, 1247, 134, 24" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="3ffe81db-11ba-49aa-aab3-4d76942f544a" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
       <TargetAnchorable.Anchors>
         <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target CVScreenId="62ee4c5d-ab94-47b3-8102-d338d070618b" CvTextArea="1128, 1043, 268, 34" CvTextArgument="Lugar de votación" CvType="Text" DesignTimeRectangle="1129, 1037, 267, 41" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Lugar de votación' tag='SPAN' type='' class='md:text-[20px] font-bold' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Lugar de votación' /&gt;" Guid="061db749-56fe-4fbe-9874-c40fcfe8636c" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="62ee4c5d-ab94-47b3-8102-d338d070618b" CvTextArea="1128, 1043, 268, 34" CvTextArgument="Lugar de votación" CvType="Text" DesignTimeRectangle="1129, 1113, 267, 41" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Lugar de votación' tag='SPAN' type='' class='md:text-[20px] font-bold' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Lugar de votación' /&gt;" Guid="061db749-56fe-4fbe-9874-c40fcfe8636c" SearchSteps="FuzzySelector, CV" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="b1d8d4d835002028b77b37fd835b71fe.jpg" xmlns="">0vJL7FXI_9E-ASRKOE2TtyA</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="577ebd4422cd98fc78c57fb67142186b.jpg" xmlns="">0giWLiW4ZcEafXnWPE49Vew</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">GetText</x:String>
   </ObjectRepositoryTargetData.Data>

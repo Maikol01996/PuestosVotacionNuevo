@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Resolución 0001 del año…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "5-0wbEoP_0maDgiDd-Hfdg",
+  "Reference": "Bfm9rTQjp0yuZZWkJHr_zw/5-0wbEoP_0maDgiDd-Hfdg",
+  "ParentRef": "Bfm9rTQjp0yuZZWkJHr_zw/6UIuDjv2OkaOvkfpRRQQfQ",
+  "Created": "2026-03-01T18:02:18.6624699Z",
+  "Updated": "2026-03-01T18:02:18.6624699Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

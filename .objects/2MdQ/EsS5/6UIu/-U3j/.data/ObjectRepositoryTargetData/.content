@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vDKdUHQEGkOkat-Mojbang" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="eleccionescolombia.registraduria.gov.co/Polling" DesignTimeRectangle="1316, 800, 1230, 36" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='modalTitle' parentid='root' tag='DIV' /&gt;" Guid="9f601ccf-fba4-4506-8ea3-ded27d270877" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Elecciones Colombia' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e20e8438d829e949f5abaf39f0b15fbc.jpg" xmlns="">0Ucm6Y5ms4kqFUoFUuX3Kug</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
